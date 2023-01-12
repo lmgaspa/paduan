@@ -1,0 +1,56 @@
+.servicos {
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    padding: 60px;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+
+.divservicos {
+    width: 500px;
+    font-weight: 600;
+    padding-left: 100px;
+    font-size: 26px;
+}
+
+.servicos h1 {
+    text-align: center;
+    color: #004884;
+}
+
+.servicos h3 {
+    color: black;
+}
+
+span {
+    color: #004884;
+}
+
+.servicoimg {
+    width: 36%;
+}
+
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+    .servicoimg {
+        width: 120%;
+        margin-bottom: -60px;
+        margin-top: 120px;
+    }
+
+    .divservicos {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .servicoimg {
+        width: 120%;
+        margin-bottom: -60px;
+        margin-top: 120px;
+    }
+
+    .divservicos {
+        display: none;
+    }
+}

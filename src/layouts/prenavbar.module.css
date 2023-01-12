@@ -1,0 +1,30 @@
+.prenavbar {
+    background-color: #372465;
+    color: white;
+    height: 40px;
+}
+
+.prenavbaricons {
+    display: flex;
+    flex-direction: row;
+    padding-left: 310px;
+    padding-top: 12px;
+}
+
+.prenavbar p {
+    margin-top: -1px;
+    padding-right: 20px;
+    padding-left: 10px;
+}
+
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+    .prenavbaricons {
+        padding-left: 48px;
+    }
+  }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .prenavbaricons {
+        padding-left: 205px;
+    }
+  }

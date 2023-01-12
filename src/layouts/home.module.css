@@ -1,0 +1,117 @@
+.imagem1 {
+    width: 50%;
+    height: 50%;
+    margin-top: -280px;
+    padding-left: 800px;
+}
+
+.texto {
+    max-width: 25%;
+    font-size: 36px;
+    padding-top: 80px;
+    padding-left: 280px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.texto span {
+    color: #004884;
+}
+
+.button1 {
+    background-image: linear-gradient(to right, #31032f 0%, #db5da3 100%);
+    color: #e1e1e1;
+    max-width: 1000px;
+    padding: 1rem 5rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 2rem;
+    cursor: pointer;
+    position: absolute;
+    top: 530px;
+    left: 250px;
+}
+
+.button2 {
+    background-image: linear-gradient(to right, #372465 0%, #009dc5 100%);
+    color: #e1e1e1;
+    max-width: 1000px;
+    padding: 1rem 6.4rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 2rem;
+    cursor: pointer;
+    position: absolute;
+    top: 600px;
+    left: 250px;
+}
+
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+    .imagem1 {
+        display: none;
+        width: 0;
+    }
+
+    .texto {
+        padding-top: 1px;
+        padding-left: 0px;
+        margin-left: 0px;
+        font-size: 22px;
+        text-align: center;
+        display: table-row;
+    }
+
+    .texto span {
+        color: #004884;
+    }
+    
+
+    .button1 {
+        padding: 1rem 1rem;
+        left: 50px;
+        top: 260px;
+        font-size: 22px;
+        max-width: 380px;
+        min-width: 380px;
+    }
+    .button2 {
+        padding: 1rem 1rem;
+        left: 50px;
+        top: 330px;
+        font-size: 22px;
+        max-width: 380px;
+        min-width: 380px;
+    }
+  }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .imagem1 {
+        display: none;
+    }
+    .texto {
+        font-size: 22px;
+        display: table-row;
+    }
+
+    .texto span {
+    color: #004884;
+}
+    .button1 {
+        padding: 1rem 1rem;
+        left: 220px;
+        top: 260px;
+        font-size: 22px;
+        max-width: 380px;
+        min-width: 380px;
+    }
+    .button2 {
+        padding: 1rem 1rem;
+        left: 220px;
+        top: 330px;
+        font-size: 22px;
+        max-width: 380px;
+        min-width: 380px;
+    }
+  }
