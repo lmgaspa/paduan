@@ -48,6 +48,36 @@
     left: 250px;
 }
 
+@media (min-width: 768px) and (max-width: 1024px) {
+    .imagem1 {
+        display: none;
+    }
+    .texto {
+        font-size: 22px;
+        display: table-row;
+    }
+
+    .texto span {
+    color: #004884;
+}
+    .button1 {
+        padding: 1rem 1rem;
+        left: 220px;
+        top: 260px;
+        font-size: 22px;
+        max-width: 380px;
+        min-width: 380px;
+    }
+    .button2 {
+        padding: 1rem 1rem;
+        left: 220px;
+        top: 330px;
+        font-size: 22px;
+        max-width: 380px;
+        min-width: 380px;
+    }
+  }
+
 @media only screen and (min-width: 381px) and (max-width: 767px) {
     .imagem1 {
         display: none;
@@ -79,36 +109,6 @@
     .button2 {
         padding: 1rem 1rem;
         left: 100px;
-        top: 330px;
-        font-size: 22px;
-        max-width: 380px;
-        min-width: 380px;
-    }
-  }
-
-@media (min-width: 768px) and (max-width: 1024px) {
-    .imagem1 {
-        display: none;
-    }
-    .texto {
-        font-size: 22px;
-        display: table-row;
-    }
-
-    .texto span {
-    color: #004884;
-}
-    .button1 {
-        padding: 1rem 1rem;
-        left: 220px;
-        top: 260px;
-        font-size: 22px;
-        max-width: 380px;
-        min-width: 380px;
-    }
-    .button2 {
-        padding: 1rem 1rem;
-        left: 220px;
         top: 330px;
         font-size: 22px;
         max-width: 380px;
