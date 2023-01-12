@@ -48,7 +48,7 @@
     left: 250px;
 }
 
-@media only screen and (min-width: 481px) and (max-width: 767px) {
+@media only screen and (min-width: 381px) and (max-width: 767px) {
     .imagem1 {
         display: none;
         width: 0;
