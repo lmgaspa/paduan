@@ -99,6 +99,7 @@
     
 
     .button1 {
+        margin-top: 20px;
         padding: 1rem 1rem;
         left: 40px;
         top: 260px;
@@ -107,6 +108,7 @@
         min-width: 380px;
     }
     .button2 {
+        margin-top: 20px;
         padding: 1rem 1rem;
         left: 40px;
         top: 330px;
