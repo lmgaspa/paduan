@@ -1,14 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 .navbar {
-    height: 120px;
+    height: 18rem;
+    
 }
 
 .list {
     list-style-type: none;
     display: flex;
     float: right;
-    padding: 3.2rem 4.8rem;
+    padding: 7.2rem 4.8rem;
 }
 
 .list li {
@@ -19,7 +20,7 @@
     text-decoration: none;
     color: #372465;
     font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
+    font-size: 1.8rem;
     font-weight: 600;
 }
 
@@ -29,7 +30,7 @@
 }
 
 .logo {
-    width: 12%;
+    width: 20%;
     float: left;
     padding: 0.4rem 20rem;
 
@@ -41,8 +42,8 @@
 
 @media only screen and (min-width: 641px) and (max-width: 1180px) {
     .logo {
-        padding-left: 48px;
-        margin-top: 40px;
+        padding-left: 2%;
+        margin-top: 2%;
         width: 40%;
     }
     .list {
@@ -51,15 +52,20 @@
     .invisivel {
         display: flex;
         float: right;
-        padding-right: 80px;
-        font-size: 50px;
-        margin-top: -96px;
+        padding-right: 13.2%;
+        font-size: 3rem;
+        margin-top: -11%;
     }
   }
 
 @media only screen and (min-width: 0px) and (max-width: 640px) {
+    .navbar {
+        height: 1rem;
+        
+    }
+    
     .logo {
-        padding-left: 48px;
+        padding-left: 10%;
         width: 40%;
     }
     .list {
@@ -68,8 +74,8 @@
     .invisivel {
         display: flex;
         float: right;
-        padding-right: 50px;
-        font-size: 30px;
-        margin-top: -60px;
+        padding-right: 10%;
+        font-size: 2rem;
+        margin-top: -13%;
     }
   }

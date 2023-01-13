@@ -1,24 +1,9 @@
 .containerparceiros {
     display: flex;
     flex-direction: row;
-}
-
-.containersanta {
-    padding-left: 250px;
-}
-
-.containerfeas {
-    padding-left: 40px;
-    padding-top: 28px;
-}
-
-.containercapao {
-    padding-left: 40px;
-    padding-top: 60px;
-}
-
-.containeramil {
-    padding-left: 40px;
+    align-items: center;
+    box-sizing: border-box;
+    justify-content: space-around;
 }
 
 .textoParceiro {
@@ -33,34 +18,18 @@
         display: flex;
         flex-direction: row;
         align-items: center;
+        box-sizing: border-box;
+        justify-content: space-around;
+        padding-left: 1rem;
     }
 
     .textoParceiro {
         margin-bottom: 0px;
-        margin-left: 50px;
+        align-items: center;
     }
 
     img {
         width: 90%;
-    }
-
-    .containersanta {
-        padding-left: 20px;
-        margin-bottom: -20px;
-    }
-
-    .containerfeas {
-        padding-left: 50px;
-    }
-
-    .containercapao {
-        padding-left: 50px;
-        margin-bottom: 30px;
-    }
-
-    .containeramil {
-        padding-left: 0px;
-        margin-bottom: 0px;
     }
 }
 
@@ -69,6 +38,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        box-sizing: border-box;
     }
 
     .textoParceiro {
@@ -80,20 +50,21 @@
     }
 
     .containersanta {
-        padding-left: 70px;
+        padding-left: 20%;
     }
 
     .containerfeas {
-        padding-left: 70px;
+        padding-left: 20%;
+        padding-bottom: 10%;
     }
 
     .containercapao {
-        padding-left: 70px;
-        padding-bottom: 40px;
+        padding-left: 20%;
+        padding-bottom: 5%;
     }
 
     .containeramil {
-        padding-left: 70px;
-        padding-bottom: 20px;
+        padding-left: 20%;
+        padding-bottom: 5%;
     }
 }

@@ -8,10 +8,10 @@
 }
 
 .divservicos {
-    width: 500px;
+    width: 40rem;
     font-weight: 600;
-    padding-left: 100px;
-    font-size: 26px;
+    padding-left: 10%;
+    font-size: 2rem;
 }
 
 .servicos h1 {
@@ -33,10 +33,10 @@ span {
 
 @media only screen and (min-width: 641px) and (max-width: 1180px) {
     .servicoimg {
-        width: 120%;
-        margin-bottom: -70px;
-        margin-top: 50px;
-        margin-left: 40px;
+        width: 100%;
+        margin-bottom: -10%;
+        margin-top: 10%;
+        align-items: center;
     }
 
     .divservicos {
@@ -46,9 +46,9 @@ span {
 
 @media only screen and (min-width: 0px) and (max-width: 640px) {
     .servicoimg {
-        width: 120%;
-        margin-bottom: -70px;
-        margin-top: 80px;
+        width: 140%;
+        margin-bottom: -30%;
+        margin-top: 6rem;
     }
 
     .divservicos {

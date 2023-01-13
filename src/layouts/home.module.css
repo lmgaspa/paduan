@@ -1,15 +1,15 @@
 .imagem1 {
     width: 50%;
     height: 50%;
-    margin-top: -280px;
-    padding-left: 800px;
+    margin-top: -17%;
+    padding-left: 45%;
 }
 
 .texto {
     max-width: 25%;
-    font-size: 36px;
-    padding-top: 80px;
-    padding-left: 280px;
+    font-size: 3rem;
+    padding-top: 8%;
+    padding-left: 17%;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
 }
@@ -21,16 +21,16 @@
 .button1 {
     background-image: linear-gradient(to right, #31032f 0%, #db5da3 100%);
     color: #e1e1e1;
-    max-width: 1000px;
     padding: 1rem 5rem;
     font-size: 1.5rem;
     font-weight: 600;
     border: none;
     border-radius: 2rem;
     cursor: pointer;
+    margin-left: 16%;
     position: absolute;
-    top: 530px;
-    left: 250px;
+    top: 54rem;
+    min-width: 40rem;
 }
 
 .button2 {
@@ -43,9 +43,10 @@
     border: none;
     border-radius: 2rem;
     cursor: pointer;
+    margin-left: 16%;
     position: absolute;
-    top: 600px;
-    left: 250px;
+    top: 58rem;
+    min-width: 40rem;
 }
 
 @media only screen and (min-width: 641px) and (max-width: 1180px) {
@@ -55,10 +56,15 @@
     }
 
     .containertextohome {
-        margin-left: -220px;
-        word-wrap: break-word;
-        width: 3000px;
+        box-sizing: border-box;
         text-align: center;
+        inline-size: 150rem; 
+        margin-left: -18rem;
+        margin-top: -30rem;
+    }
+
+    .texto {
+        font-size: 30px;
     }
 
     .texto span {
@@ -66,22 +72,20 @@
     }
     
     .button1 {
-        margin-top: 25px;
         padding: 1rem 1rem;
-        left: 90px;
-        top: 360px;
+        top: 20rem;
         font-size: 18px;
-        max-width: 670px;
-        min-width: 670px;
+        max-width: 44rem;
+        min-width: 44rem;
+        left: -8%;
     }
     .button2 {
-        margin-top: 25px;
         padding: 1rem 1rem;
-        left: 90px;
-        top: 420px;
+        top: 23.8rem;
         font-size: 18px;
-        max-width: 670px;
-        min-width: 670px;
+        max-width: 44rem;
+        min-width: 44rem;
+        left: -8%;
     }
   }
 
@@ -90,36 +94,36 @@
         display: none;
         width: 0;
     }
-
-    .texto {
-        padding-top: 1px;
-        padding-left: 0px;
-        margin-left: 0px;
-        font-size: 22px;
+    .containertextohome {
+        box-sizing: border-box;
         text-align: center;
-        display: table-row;
+        margin-left: -12rem;
+        inline-size: 80rem;
+        margin-bottom: -4rem;
     }
 
+    .texto {
+        font-size: 18px;
+        padding-top: 0rem;
+    }    
     .texto span {
         color: #004884;
     }
     
     .button1 {
-        margin-top: 25px;
-        padding: 1rem 1rem;
-        left: 38px;
-        top: 210px;
-        font-size: 18px;
-        max-width: 280px;
-        min-width: 280px;
+        padding: 0.7rem 0.7rem;
+        top: 10rem;
+        font-size: 14px;
+        max-width: 16rem;
+        min-width: 16rem;
+        left: 0rem;
     }
     .button2 {
-        margin-top: 25px;
-        padding: 1rem 1rem;
-        left: 38px;
-        top: 275px;
-        font-size: 18px;
-        max-width: 280px;
-        min-width: 280px;
+        padding: 0.7rem 0.7rem;
+        top: 13rem;
+        font-size: 14px;
+        max-width: 16rem;
+        min-width: 16rem;
+        left: 0rem;
     }
   }
