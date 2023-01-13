@@ -48,36 +48,6 @@
     left: 250px;
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
-    .imagem1 {
-        display: none;
-    }
-    .texto {
-        font-size: 22px;
-        display: table-row;
-    }
-
-    .texto span {
-    color: #004884;
-}
-    .button1 {
-        padding: 1rem 1rem;
-        left: 220px;
-        top: 260px;
-        font-size: 22px;
-        max-width: 380px;
-        min-width: 380px;
-    }
-    .button2 {
-        padding: 1rem 1rem;
-        left: 220px;
-        top: 330px;
-        font-size: 22px;
-        max-width: 380px;
-        min-width: 380px;
-    }
-  }
-
 @media only screen and (min-width: 0px) and (max-width: 767px) {
     .imagem1 {
         display: none;
@@ -101,8 +71,8 @@
     .button1 {
         margin-top: 25px;
         padding: 1rem 1rem;
-        left: 34px;
-        top: 260px;
+        left: 36px;
+        top: 200px;
         font-size: 18px;
         max-width: 280px;
         min-width: 280px;
@@ -110,8 +80,8 @@
     .button2 {
         margin-top: 25px;
         padding: 1rem 1rem;
-        left: 34px;
-        top: 330px;
+        left: 36px;
+        top: 265px;
         font-size: 18px;
         max-width: 280px;
         min-width: 280px;

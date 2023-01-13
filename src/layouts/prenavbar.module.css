@@ -29,17 +29,8 @@
     padding-left: 530px;
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
-    .prenavbaricons {
-        padding-left: 205px;
-    }
-  }
-
 @media only screen and (min-width: 0px) and (max-width: 767px) {
     .prenavbar {
-        display: none;
-    }
-    .prenavbaricons {
         display: none;
     }
   }
