@@ -13,7 +13,7 @@
     font-weight: 600;
 }
 
-@media only screen and (min-width: 641px) and (max-width: 1180px) {
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
     .containerparceiros {
         display: flex;
         flex-direction: row;
@@ -33,7 +33,7 @@
     }
 }
 
-@media only screen and (min-width: 0px) and (max-width: 640px) {
+@media only screen and (min-width: 0px) and (max-width: 767px) {
     .containerparceiros {
         display: flex;
         flex-direction: column;
