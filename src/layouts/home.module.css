@@ -67,12 +67,11 @@
         color: #004884;
     }
     
-
     .button1 {
         margin-top: 25px;
         padding: 1rem 1rem;
-        left: 36px;
-        top: 200px;
+        left: 37px;
+        top: 210px;
         font-size: 18px;
         max-width: 280px;
         min-width: 280px;
@@ -80,8 +79,8 @@
     .button2 {
         margin-top: 25px;
         padding: 1rem 1rem;
-        left: 36px;
-        top: 265px;
+        left: 367px;
+        top: 275px;
         font-size: 18px;
         max-width: 280px;
         min-width: 280px;
