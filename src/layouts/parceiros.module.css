@@ -28,6 +28,42 @@
     font-weight: 600;
 }
 
+@media only screen and (min-width: 820px) and (max-width: 1180px) {
+    .containerparceiros {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .textoParceiro {
+        margin-bottom: 0px;
+        margin-left: 50px;
+    }
+
+    img {
+        width: 90%;
+    }
+
+    .containersanta {
+        padding-left: 90px;
+        margin-bottom: -20px;
+    }
+
+    .containerfeas {
+        padding-left: 70px;
+    }
+
+    .containercapao {
+        padding-left: 70px;
+        margin-bottom: 30px;
+    }
+
+    .containeramil {
+        padding-left: 20px;
+        margin-bottom: -20px;
+    }
+}
+
 @media only screen and (min-width: 0px) and (max-width: 640px) {
     .containerparceiros {
         display: flex;

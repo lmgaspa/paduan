@@ -31,6 +31,19 @@ span {
     width: 36%;
 }
 
+@media only screen and (min-width: 820px) and (max-width: 1180px) {
+    .servicoimg {
+        width: 120%;
+        margin-bottom: -70px;
+        margin-top: 50px;
+        margin-left: 40px;
+    }
+
+    .divservicos {
+        display: none;
+    }
+}
+
 @media only screen and (min-width: 0px) and (max-width: 640px) {
     .servicoimg {
         width: 120%;

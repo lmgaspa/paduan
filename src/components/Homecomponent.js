@@ -5,7 +5,7 @@ import styles from '../layouts/home.module.css'
 export default function Homecomponent() {
   return (
     <section>
-      <div>
+      <div className={styles.containertextohome}>
         <p className={styles.texto}>BEM VINDO A DIGITAL RAD, PRESTAÇÃO DE<span> MÃO DE OBRA </span>ESPECIALIZADA EM <span> RADIOLOGIA</span></p>
       </div>
       <div>

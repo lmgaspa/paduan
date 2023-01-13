@@ -48,6 +48,43 @@
     left: 250px;
 }
 
+@media only screen and (min-width: 820px) and (max-width: 1180px) {
+    .imagem1 {
+        display: none;
+        width: 0;
+    }
+
+    .containertextohome {
+        margin-left: -220px;
+        word-wrap: break-word;
+        width: 3000px;
+        text-align: center;
+    }
+
+    .texto span {
+        color: #004884;
+    }
+    
+    .button1 {
+        margin-top: 25px;
+        padding: 1rem 1rem;
+        left: 90px;
+        top: 360px;
+        font-size: 18px;
+        max-width: 670px;
+        min-width: 670px;
+    }
+    .button2 {
+        margin-top: 25px;
+        padding: 1rem 1rem;
+        left: 90px;
+        top: 420px;
+        font-size: 18px;
+        max-width: 670px;
+        min-width: 670px;
+    }
+  }
+
 @media only screen and (min-width: 0px) and (max-width: 640px) {
     .imagem1 {
         display: none;
