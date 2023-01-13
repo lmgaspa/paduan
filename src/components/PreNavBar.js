@@ -10,10 +10,10 @@ export default function PreNavBar() {
       <BsFillTelephoneFill />
       </div>
       <p>(47)99959-6195</p>
-      <div className={styles.prenavbaricons}>
+      <div className={styles.prenavbaricons1}>
       <AiOutlineMail />
       </div>
-      <p>contato@digitalrad.net.br</p>
+      <p className={styles.p1}>contato@digitalrad.net.br</p>
     </div>
   )
 }
