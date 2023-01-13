@@ -28,7 +28,7 @@
     font-weight: 600;
 }
 
-@media only screen and (min-width: 820px) and (max-width: 1180px) {
+@media only screen and (min-width: 641px) and (max-width: 1180px) {
     .containerparceiros {
         display: flex;
         flex-direction: row;
@@ -45,22 +45,22 @@
     }
 
     .containersanta {
-        padding-left: 90px;
+        padding-left: 20px;
         margin-bottom: -20px;
     }
 
     .containerfeas {
-        padding-left: 70px;
+        padding-left: 50px;
     }
 
     .containercapao {
-        padding-left: 70px;
+        padding-left: 50px;
         margin-bottom: 30px;
     }
 
     .containeramil {
-        padding-left: 20px;
-        margin-bottom: -20px;
+        padding-left: 0px;
+        margin-bottom: 0px;
     }
 }
 

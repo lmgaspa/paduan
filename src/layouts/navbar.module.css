@@ -39,7 +39,7 @@
     display: none;
 }
 
-@media only screen and (min-width: 820px) and (max-width: 1180px) {
+@media only screen and (min-width: 641px) and (max-width: 1180px) {
     .logo {
         padding-left: 48px;
         margin-top: 40px;

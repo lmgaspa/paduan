@@ -14,7 +14,7 @@
     height: 50px;
 }
 
-@media only screen and (min-width: 820px) and (max-width: 1180px) {
+@media only screen and (min-width: 641px) and (max-width: 1180px) {
     .containerfooter {
         display: block;
         font-size: 16px;
@@ -25,9 +25,14 @@
         justify-content: center;
         width: 180px;
     }
+    html,
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
 }
 
-@media only screen and (min-width: 0px) and (max-width: 500px) {
+@media only screen and (min-width: 0px) and (max-width: 640px) {
     .containerfooter {
         display: inline-block;
         font-size: 16px;

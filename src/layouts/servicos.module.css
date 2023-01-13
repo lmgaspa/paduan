@@ -31,7 +31,7 @@ span {
     width: 36%;
 }
 
-@media only screen and (min-width: 820px) and (max-width: 1180px) {
+@media only screen and (min-width: 641px) and (max-width: 1180px) {
     .servicoimg {
         width: 120%;
         margin-bottom: -70px;
