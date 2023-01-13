@@ -64,7 +64,7 @@
     }
 }
 
-@media only screen and (min-width: 0px) and (max-width: 640px) {
+@media only screen and (min-width: 0px) and (max-width: 500px) {
     .containerparceiros {
         display: flex;
         flex-direction: column;

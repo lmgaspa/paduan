@@ -7,7 +7,7 @@ import { IoLocationOutline } from 'react-icons/io5';
 export default function footer() {
   return (
     <section className={styles.containerfooter}>
-      <div className={styles.icons}>
+      <div>
         <IoLocationOutline />
         Endereço:
         <p>Rua Padre Estanislau Piasecki, 426, CIC- Curitiba/PR
