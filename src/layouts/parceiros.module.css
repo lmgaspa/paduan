@@ -1,9 +1,6 @@
 .containerparceiros {
-    max-width: 20px;
-    min-width: 20px;
     display: flex;
     flex-direction: row;
-    box-sizing: border-box;
 }
 
 .containersanta {
@@ -31,29 +28,36 @@
     font-weight: 600;
 }
 
-@media only screen and (min-width: 0px) and (max-width: 767px) {
+@media only screen and (min-width: 0px) and (max-width: 360px) {
     .containerparceiros {
         display: flex;
         flex-direction: column;
-        box-sizing: border-box;
         align-items: center;
     }
 
+    .textoParceiro {
+        margin-bottom: 0px;
+    }
+
+    img {
+        width: 70%;
+    }
+
     .containersanta {
-        padding-left: 480px;
+        padding-left: 70px;
     }
-    
+
     .containerfeas {
-        padding-left: 480px;
+        padding-left: 70px;
     }
-    
+
     .containercapao {
-        padding-left: 480px;
-        padding-bottom: 20px;
+        padding-left: 70px;
+        padding-bottom: 40px;
     }
-    
+
     .containeramil {
-        padding-left: 480px;
+        padding-left: 70px;
         padding-bottom: 20px;
     }
 }

@@ -7,7 +7,7 @@ import styles from '../layouts/parceiros.module.css'
 
 export default function Parceiros() {
     return (
-        <secction>
+        <div>
             <h1 className={styles.textoParceiro}>Parceiros</h1>
             <div className={styles.containerparceiros}>
                 <div className={styles.containersanta}>
@@ -23,6 +23,6 @@ export default function Parceiros() {
                     <img src={Amil} alt="Amil"></img>
                 </div>
             </div>
-        </secction>
+        </div>
     )
 }
