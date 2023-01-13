@@ -104,8 +104,8 @@
         left: 32px;
         top: 260px;
         font-size: 18px;
-        max-width: 380px;
-        min-width: 380px;
+        max-width: 340px;
+        min-width: 340px;
     }
     .button2 {
         margin-top: 25px;
@@ -113,7 +113,7 @@
         left: 32px;
         top: 330px;
         font-size: 18px;
-        max-width: 380px;
-        min-width: 380px;
+        max-width: 340px;
+        min-width: 340px;
     }
   }
