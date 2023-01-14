@@ -1,129 +1,83 @@
-.imagem1 {
-    width: 50%;
-    height: 50%;
-    margin-top: -17%;
-    padding-left: 45%;
-}
-
-.texto {
-    max-width: 25%;
-    font-size: 3rem;
-    padding-top: 8%;
-    padding-left: 17%;
+.containerhome {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100vh;
+    color: black;
+    display: grid;
+    flex-direction: column;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
+    font-size: 2.5rem;
+    padding-top: 18vh;
+    padding-left: 10vw;
 }
 
-.texto span {
+.containerhome p {
+    max-width: 36vw;
+    padding-top: 3vh;
+    padding-left: 5vw;
+    margin-bottom: 2vh;   
+}
+
+.containerhome span {
     color: #004884;
+}
+
+.containerhome img {
+    display: flex;
+    float:right;
+    margin-right:4vw;
+    width: 50%;
+    height: 90%;
+    margin-top: -50vh;
+}
+
+button {
+    margin-top: 1vh;
+    margin-left: 6vw;
+    display: grid;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #e1e1e1;
+    border: none;
+    border-radius: 2rem;
+    cursor: pointer;
+    width: 35%;
 }
 
 .button1 {
     background-image: linear-gradient(to right, #31032f 0%, #db5da3 100%);
-    color: #e1e1e1;
     padding: 1rem 5rem;
-    font-size: 1.5rem;
-    font-weight: 600;
-    border: none;
-    border-radius: 2rem;
-    cursor: pointer;
-    margin-left: 16%;
-    position: absolute;
-    top: 54rem;
-    min-width: 40rem;
 }
 
 .button2 {
     background-image: linear-gradient(to right, #372465 0%, #009dc5 100%);
-    color: #e1e1e1;
-    max-width: 1000px;
     padding: 1rem 6.4rem;
-    font-size: 1.5rem;
-    font-weight: 600;
-    border: none;
-    border-radius: 2rem;
-    cursor: pointer;
-    margin-left: 16%;
-    position: absolute;
-    top: 58rem;
-    min-width: 40rem;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
-    .imagem1 {
-        display: none;
-        width: 0;
+@media only screen and (min-width: 0px) and (max-width: 480px) {
+    .containerhome {
+        font-size: 1.4rem;
+        width: 100%;
+        height: 100%;
+        padding: 0.1vh;
+        justify-items: center;
+        padding-left: 0;
     }
 
-    .containertextohome {
-        box-sizing: border-box;
+    .containerhome p {
+        max-width: 85vw;
         text-align: center;
-        inline-size: 150rem; 
-        margin-left: -18rem;
-        margin-top: -30rem;
     }
 
-    .texto {
-        font-size: 30px;
+    .containerhome button {
+        padding: 0.7rem;
+        font-size: 1rem;
+        width: 100%;
+        margin-left: 0;
     }
 
-    .texto span {
-        color: #004884;
-    }
-    
-    .button1 {
-        padding: 1rem 1rem;
-        top: 20rem;
-        font-size: 18px;
-        max-width: 44rem;
-        min-width: 44rem;
-        left: -8%;
-    }
-    .button2 {
-        padding: 1rem 1rem;
-        top: 23.8rem;
-        font-size: 18px;
-        max-width: 44rem;
-        min-width: 44rem;
-        left: -8%;
-    }
-  }
-
-@media only screen and (min-width: 0px) and (max-width: 767px) {
-    .imagem1 {
+    .containerhome img {
         display: none;
-        width: 0;
     }
-    .containertextohome {
-        box-sizing: border-box;
-        text-align: center;
-        margin-left: -12rem;
-        inline-size: 80rem;
-        margin-bottom: -4rem;
-    }
-
-    .texto {
-        font-size: 18px;
-        padding-top: 0rem;
-    }    
-    .texto span {
-        color: #004884;
-    }
-    
-    .button1 {
-        padding: 0.7rem 0.7rem;
-        top: 10rem;
-        font-size: 14px;
-        max-width: 16rem;
-        min-width: 16rem;
-        left: 0rem;
-    }
-    .button2 {
-        padding: 0.7rem 0.7rem;
-        top: 13rem;
-        font-size: 14px;
-        max-width: 16rem;
-        min-width: 16rem;
-        left: 0rem;
-    }
-  }
+}

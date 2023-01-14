@@ -7,22 +7,24 @@ import styles from '../layouts/parceiros.module.css'
 
 export default function Parceiros() {
     return (
-        <div>
-            <h1 className={styles.textoParceiro}>Parceiros</h1>
+        <section>
+            <div>
+                <h1 className={styles.textoparceiros}>Parceiros</h1>
+            </div>
             <div className={styles.containerparceiros}>
-                <div className={styles.containersanta}>
+                <div>
                     <img src={Santa} alt="Santa Casa de Misericórdia de Curitiba"></img>
                 </div>
-                <div className={styles.containerfeas}>
+                <div>
                     <img src={Feas} alt="FEAES"></img>
                 </div>
-                <div className={styles.containercapao}>
+                <div>
                     <img src={Capao} alt="Centro de Diagnóstico Capão Raso"></img>
                 </div>
-                <div className={styles.containeramil}>
+                <div>
                     <img src={Amil} alt="Amil"></img>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }

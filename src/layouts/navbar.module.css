@@ -1,81 +1,63 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
 .navbar {
-    height: 18rem;
-    
+    box-sizing: border-box;
+    height: 18vh;
+    display: flex;
+    align-items: center;
 }
 
-.list {
+.navbar img {
+    width: 18vw;
+    margin-left: 15vw;
+}
+
+.navbar ul {
     list-style-type: none;
     display: flex;
-    float: right;
-    padding: 7.2rem 4.8rem;
+    margin-left: 12vw;
 }
 
-.list li {
-    padding-left: 1.2rem;  
+.navbar ul li {
+    padding-left: 1.2rem;
 }
 
-.list a {
+.navbar ul li a {
     text-decoration: none;
     color: #372465;
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.8rem;
+    font-size: 1.1rem;
     font-weight: 600;
 }
 
-.list a:hover {
+.navbar ul li a:hover {
     text-decoration: none;
     color: #f73e1e;
-}
-
-.logo {
-    width: 20%;
-    float: left;
-    padding: 0.4rem 20rem;
-
 }
 
 .invisivel {
     display: none;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
-    .logo {
-        padding-left: 2%;
-        margin-top: 2%;
-        width: 40%;
-    }
-    .list {
-        display: none;
-    }
-    .invisivel {
-        display: flex;
-        float: right;
-        padding-right: 13.2%;
-        font-size: 3rem;
-        margin-top: -11%;
-    }
-  }
-
-@media only screen and (min-width: 0px) and (max-width: 767px) {
+@media only screen and (min-width: 0px) and (max-width: 480px) {
     .navbar {
-        height: 1rem;
-        
+        display: flex;
+        justify-content: space-between;
+        margin-right:4vw;
+        margin-bottom: -3vh;
     }
-    
-    .logo {
-        padding-left: 10%;
-        width: 40%;
-    }
-    .list {
+
+    .navbar ul {
         display: none;
     }
-    .invisivel {
-        display: flex;
-        float: right;
-        padding-right: 10%;
-        font-size: 2rem;
-        margin-top: -13%;
+
+    .navbar img {
+        width: 25vh;
+        margin-left: 5vw;
     }
-  }
+
+    .invisivel {
+        font-size: 2rem;
+        margin-top: 2.8vh;
+        margin-right: 1vw;
+        display: flex;
+    }
+}

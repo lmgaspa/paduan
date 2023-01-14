@@ -13,7 +13,7 @@ export default function PreNavBar() {
       <div className={styles.prenavbaricons1}>
       <AiOutlineMail />
       </div>
-      <p className={styles.p1}>contato@digitalrad.net.br</p>
+      <p>contato@digitalrad.net.br</p>
     </div>
   )
 }

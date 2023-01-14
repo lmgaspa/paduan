@@ -3,13 +3,17 @@
     color: white;
     display: flex;
     justify-content: space-around;
-    padding: 7.6rem;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     font-weight: 600;
+    padding: 7.6rem;
     text-align: center;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
+.containerfooter p {
+    margin-top: 1vh;
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
     .containerfooter {
         display: block;
         font-size: 20px;
@@ -19,26 +23,20 @@
         width: 100%;
         padding-left: 0rem;
     }
-    html,
-    body {
-        width: 100%;
-        overflow-x: hidden;
-    }
 }
 
-@media only screen and (min-width: 0px) and (max-width: 767px) {
+@media only screen and (min-width: 0px) and (max-width: 480px) {
     .containerfooter {
         display: grid;
         font-size: 16px;
-        box-sizing: border-box;
-        padding-top: 5%;
-        width: 100%;
-        height: 17rem;
+        height: 100%;
+        justify-content: center;
+        padding-top: 2vh;
+        padding-bottom: 1vh;
     }
 
-    html,
-    body {
-        width: 100%;
-        overflow-x: hidden;
+    .containerfooter p {
+        margin-top: 2vh;
+        margin-bottom: 2vh;
     }
 }

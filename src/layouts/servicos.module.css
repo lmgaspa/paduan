@@ -1,54 +1,45 @@
 .servicos {
-    color: black;
+    box-sizing: border-box;
     display: flex;
     justify-content: space-around;
-    padding: 60px;
     font-family: 'Montserrat', sans-serif;
-    box-sizing: border-box;
+    font-weight: 600;
+    font-size: 2rem;
+    padding-left: 10vw;
 }
 
 .divservicos {
-    width: 40rem;
-    font-weight: 600;
-    padding-left: 10%;
-    font-size: 2rem;
+    width: 30vw;
+    font-size: 1.4rem;
+    margin-top: -5vh;
 }
 
 .servicos h1 {
+    color: #004884;
     text-align: center;
+    padding-bottom: 1vh;
+    font-size: 2.4rem;
+}
+
+.servicos span {
     color: #004884;
 }
 
-.servicos h3 {
-    color: black;
-}
-
-span {
-    color: #004884;
-}
-
-.servicoimg {
+.servicos img {
     width: 36%;
+    margin-top: -10vh;
+    margin-right: 2vw;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
-    .servicoimg {
-        width: 100%;
-        margin-bottom: -10%;
-        margin-top: 10%;
+@media only screen and (min-width: 0px) and (max-width: 480px) {
+    .servicos img {
+        display: flex;
+        flex-direction: column;
         align-items: center;
-    }
-
-    .divservicos {
-        display: none;
-    }
-}
-
-@media only screen and (min-width: 0px) and (max-width: 767) {
-    .servicoimg {
-        width: 140%;
-        margin-bottom: -30%;
-        margin-top: 6rem;
+        width: 100%;
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+        margin-right: 9vw;
     }
 
     .divservicos {
