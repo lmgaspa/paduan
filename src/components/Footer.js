@@ -18,7 +18,7 @@ export default function footer() {
         <p>(47)99959-6195</p>
         </div>
         <div>
-        <AiOutlineMail />Email<p>contato@digitalrad.net.br</p>
+        <AiOutlineMail />E-mail:<p>contato@digitalrad.net.br</p>
       </div>
          </section>
   )
