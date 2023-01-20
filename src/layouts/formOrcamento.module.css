@@ -29,12 +29,13 @@
 
 .inputform {
     margin-bottom: 1vh;
-    height: 3vh;
+    height: 4vh;
     font-family: 'Montserrat', sans-serif;
 }
 
 .textarea {
     height: 15vh;
+    padding-top: 1vh;
     font-family: 'Montserrat', sans-serif;
 }
 
