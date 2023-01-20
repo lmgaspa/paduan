@@ -95,9 +95,10 @@
     .menudropshownav {
         position: absolute;
         font-size: 1rem;
-        background-color: #cff0ff;
-        margin-top: 5vh; 
+        background-color: #fbfeff;
+        margin-top: 10vh; 
         right: -7vw;
+        width: 90vw;
         padding-left: 5vw;
         padding-right: 5vw;
     }
@@ -106,20 +107,24 @@
         display: flex;
         flex-direction: column;
         text-align: center;
+        border: 1px solid rgb(69, 143, 255);
+        border-radius: 15px;
+        padding-top: 1vh;
+        font-weight: 600;
     }
 
 
     .menudropshownav ul li {
         display: inline-block;
         list-style: none;
+        margin-bottom: 1vh;
     }
 
     .menudropshownav ul li a {
         text-decoration: none;
         display: flex;
         flex-direction: column;
-        margin-bottom: 2vh;
-        
+        margin-bottom: 2vh; 
     }
 }
 
@@ -151,9 +156,10 @@
     .menudropshownav {
         position: absolute;
         font-size: 1rem;
-        background-color: #cff0ff;
-        margin-top: 5vh; 
+        background-color: #fbfeff;
+        margin-top: 10vh; 
         right: -7vw;
+        width: 90vw;
         padding-left: 5vw;
         padding-right: 5vw;
     }
@@ -162,19 +168,24 @@
         display: flex;
         flex-direction: column;
         text-align: center;
+        border: 1px solid rgb(69, 143, 255);
+        border-radius: 15px;
+        padding-top: 1vh;
+        font-weight: 600;
     }
+
 
     .menudropshownav ul li {
         display: inline-block;
         list-style: none;
+        margin-bottom: 0vh;
     }
 
     .menudropshownav ul li a {
         text-decoration: none;
         display: flex;
         flex-direction: column;
-        margin-bottom: 2vh;
-        
+        margin-bottom: 2vh; 
     }
 }
 
@@ -202,7 +213,7 @@
 
     .invisivel {
         font-size: 250%;
-        margin-top: -5.5vh;
+        margin-top: -7vh;
         right: 10vw;
         display: flex;
         font-family: 'Montserrat', sans-serif;
@@ -211,9 +222,10 @@
     .menudropshownav {
         position: absolute;
         font-size: 1rem;
-        background-color: #cff0ff;
-        margin-top: 5vh; 
+        background-color: #fbfeff;
+        margin-top: 10vh; 
         right: -7vw;
+        width: 90vw;
         padding-left: 5vw;
         padding-right: 5vw;
     }
@@ -222,18 +234,23 @@
         display: flex;
         flex-direction: column;
         text-align: center;
+        border: 1px solid rgb(69, 143, 255);
+        border-radius: 15px;
+        padding-top: 1vh;
+        font-weight: 600;
     }
+
 
     .menudropshownav ul li {
         display: inline-block;
         list-style: none;
+        margin-bottom: 0vh;
     }
 
     .menudropshownav ul li a {
         text-decoration: none;
         display: flex;
         flex-direction: column;
-        margin-bottom: 2vh;
-        
+        margin-bottom: 2vh; 
     }
 }
