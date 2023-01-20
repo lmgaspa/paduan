@@ -46,7 +46,7 @@ button {
 }
 
 .button1 {
-    background-image: linear-gradient(to right, #31032f 0%, #db5da3 100%);
+    background-image: linear-gradient(to right, #fd0000 0%, #ff5353 100%);
     padding: 1rem 5rem;
 }
 

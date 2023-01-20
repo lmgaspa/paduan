@@ -6,6 +6,7 @@ import Orcamento from './pages/Orcamento';
 import Contato from './pages/Contato';
 import Quemsomos from './pages/Quemsomos';
 import TrabalheConosco from './pages/TrabalheConosco';
+import MenuDropDown from './components/MenuDropDown';
 
 function App() {
   return (
@@ -17,6 +18,8 @@ function App() {
         <Route path="/contato" element={<Contato />} />
         <Route path="/quemsomos" element={<Quemsomos />} />
         <Route path="/trabalheconosco" element={<TrabalheConosco />} />
+        <Route path="/menudrop" element={<MenuDropDown />} />
+        <Route path="*" element={<Home />} />
       </Routes>
     </Router>
   );

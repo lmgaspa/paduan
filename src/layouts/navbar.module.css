@@ -1,6 +1,10 @@
+.containermenunav {
+    display: flex;
+}
+
 .navbar {
     box-sizing: border-box;
-    height: 18vh;
+    height: auto;
     display: flex;
     align-items: center;
 }
@@ -13,10 +17,13 @@
 .navbar ul {
     list-style-type: none;
     display: flex;
-    margin-left: 12vw;
+    margin-left: 10vw;
+    justify-content: center;
+    margin-top: 4vh;
 }
 
 .navbar ul li {
+    display: flex;
     padding-left: 1.2rem;
 }
 
@@ -26,6 +33,7 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 1.1rem;
     font-weight: 600;
+    display: flex;
 }
 
 .navbar ul li a:hover {
@@ -34,15 +42,36 @@
 }
 
 .invisivel {
+    font-size: 250%;
+    color: black;
+    margin-top: -10vh;
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    float: right;
+    flex-direction: column;
+    position: absolute;
+    right: 4vw;
+    display: none;
+}
+
+.menudrop {
+    display: none;
+}
+
+.menudropshow {
+    display: none;
+}
+
+.menudropshow ul li a {
     display: none;
 }
 
 @media only screen and (min-width: 769px) and (max-width: 1279px) {
     .navbar {
-        display: flex;
-        justify-content: space-between;
-        margin-right:4vw;
+        margin-right: 4vw;
         margin-bottom: -3vh;
+        height: auto;
+        display: flex;
     }
 
     .navbar ul {
@@ -50,15 +79,47 @@
     }
 
     .navbar img {
-        width: 25vh;
+        width: 33%;
         margin-left: 5vw;
+        display: flex;
     }
 
     .invisivel {
-        font-size: 2rem;
-        margin-top: 2.8vh;
-        margin-right: 1vw;
+        font-size: 250%;
+        margin-top: -7vh;
+        right: 10vw;
         display: flex;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .menudropshownav {
+        position: absolute;
+        font-size: 1rem;
+        background-color: #cff0ff;
+        margin-top: 5vh; 
+        right: -7vw;
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+
+    .menudropshownav ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+
+    .menudropshownav ul li {
+        display: inline-block;
+        list-style: none;
+    }
+
+    .menudropshownav ul li a {
+        text-decoration: none;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 2vh;
+        
     }
 }
 
@@ -66,7 +127,7 @@
     .navbar {
         display: flex;
         justify-content: space-between;
-        margin-right:4vw;
+        margin-right: 4vw;
         margin-bottom: -3vh;
     }
 
@@ -75,15 +136,45 @@
     }
 
     .navbar img {
-        width: 25vh;
+        width: 33vh;
         margin-left: 5vw;
     }
 
     .invisivel {
-        font-size: 2rem;
-        margin-top: 2.8vh;
-        margin-right: 1vw;
+        font-size: 250%;
+        margin-top: -7vh;
+        right: 10vw;
         display: flex;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .menudropshownav {
+        position: absolute;
+        font-size: 1rem;
+        background-color: #cff0ff;
+        margin-top: 5vh; 
+        right: -7vw;
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+
+    .menudropshownav ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .menudropshownav ul li {
+        display: inline-block;
+        list-style: none;
+    }
+
+    .menudropshownav ul li a {
+        text-decoration: none;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 2vh;
+        
     }
 }
 
@@ -91,7 +182,7 @@
     .navbar {
         display: flex;
         justify-content: space-between;
-        margin-right:4vw;
+        margin-right: 4vw;
         margin-bottom: -3vh;
     }
 
@@ -104,10 +195,45 @@
         margin-left: 5vw;
     }
 
+    .navbar img {
+        width: 33vh;
+        margin-left: 5vw;
+    }
+
     .invisivel {
-        font-size: 2rem;
-        margin-top: 2.8vh;
-        margin-right: 1vw;
+        font-size: 250%;
+        margin-top: -5.5vh;
+        right: 10vw;
         display: flex;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .menudropshownav {
+        position: absolute;
+        font-size: 1rem;
+        background-color: #cff0ff;
+        margin-top: 5vh; 
+        right: -7vw;
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+
+    .menudropshownav ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .menudropshownav ul li {
+        display: inline-block;
+        list-style: none;
+    }
+
+    .menudropshownav ul li a {
+        text-decoration: none;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 2vh;
+        
     }
 }

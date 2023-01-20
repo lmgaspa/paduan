@@ -1,0 +1,86 @@
+.containerOrcamento {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+
+.containerOrcamento h1 {
+    color: #004884;
+    margin-bottom: 0.8vh;
+    font-size: 1.8rem;
+}
+
+.containerform {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.form {
+    max-width: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.inputform {
+    margin-bottom: 1vh;
+    height: 3vh;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.textarea {
+    height: 15vh;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.buttonform {
+    margin-top: 1vh;
+    display: grid;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #e1e1e1;
+    border: none;
+    border-radius: 2rem;
+    cursor: pointer;
+    width: 100%;
+    background-image: linear-gradient(to right, #372465 0%, #009dc5 100%);
+    padding: 0.6vh;
+}
+
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .containerOrcamento {
+        width: 100%;
+        margin-top: 3vh;
+        margin-bottom: 1vh;
+        margin-left: 0vw;
+        margin-right: 5vw;
+    }
+
+    .containerform {
+        width: auto;
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 480px) {
+    .containerOrcamento {
+        width: auto;
+        margin-top: 3vh;
+        margin-bottom: 1vh;
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+
+    .containerform {
+        width: auto;
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+}

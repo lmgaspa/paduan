@@ -15,10 +15,10 @@ export default function footer() {
         </div>
         <div>
         <BsFillTelephoneFill />Telefone:
-        <p>(47)99959-6195</p>
+        <p>(47)99934-2060</p>
         </div>
         <div>
-        <AiOutlineMail />E-mail:<p>contato@digitalrad.net.br</p>
+        <AiOutlineMail />E-mail:<p>digital.rad@outlook.com</p>
       </div>
          </section>
   )

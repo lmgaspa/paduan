@@ -19,7 +19,7 @@
 }
 
 .prenavbaricons1 {
-    font-size: 1.2vw;
+    font-size: 150%;
     padding-top: 0.3rem;
 }
 
@@ -30,18 +30,54 @@
 
 @media only screen and (min-width: 769px) and (max-width: 1279px) {
     .prenavbar {
-        display: none;
+        width: auto;
+        text-align: center;
+        justify-content: center;
+        padding: 0;
+        margin: 0 auto;
     }
-  }
+
+    .prenavbaricons {
+        padding-top: 0.3rem;
+
+    }
+
+    .prenavbaricons1 {
+        padding-top: 0.3rem;
+    }
+
+    .prenavbar p {
+        padding-left: 0.2rem;
+        padding-right: 1rem;
+    }
+}
 
 @media only screen and (min-width: 481px) and (max-width: 768px) {
     .prenavbar {
+        width: auto;
+        text-align: center;
+        justify-content: center;
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    .prenavbaricons {
+        padding-top: 0.3rem;
+
+    }
+
+    .prenavbaricons1 {
+        padding-top: 0.3rem;
+    }
+
+    .prenavbar p {
+        padding-left: 0.2rem;
+        padding-right: 1rem;
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 480px) {
+    .prenavbar {
         display: none;
     }
-  }
-
-    @media only screen and (min-width: 0px) and (max-width: 480px) {
-        .prenavbar {
-            display: none;
-        }
-    }
+}

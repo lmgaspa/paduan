@@ -1,0 +1,31 @@
+.containercontato {
+    box-sizing: border-box;
+    display: grid;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 1vh;
+    font-size: 1.3rem;
+    align-items: center;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.containercontato h1 {
+    color: #004884;
+    margin-bottom: 0.8vh;
+    font-size: 1.8rem;
+    padding-top: 1vh;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 480px) {
+    .containercontato {
+        width: auto;
+        text-align: center;
+        padding-left: 2vw;
+        padding-right: 6vw;
+    }
+
+    .containercontato h1 {
+        font-size: 1.3rem;
+    }
+}
