@@ -64,7 +64,11 @@
         justify-items: center;
         align-items: center;
         width: auto;
-        font-size: 1.4rem;
+        font-size: 1.1rem;
+    }
+
+    .containertrabalhe h1 {
+        font-size: 1.6rem;
     }
     
     .trabimage {
