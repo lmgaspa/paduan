@@ -52,32 +52,38 @@
 
 @media only screen and (min-width: 481px) and (max-width: 768px) {
     .servicos img {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
-        margin-top: 2vh;
-        margin-bottom: 2vh;
-        margin-right: 9vw;
+       display: none;
     }
 
     .divservicos {
-        display: none;
+        width: 100%;
+        margin-top: 2vh;
+        text-align: center;
+        margin-right: 5vw;
+        margin-bottom: 1vh;
+        font-size: 1.4rem;
     }
+
+    .divservicos h1 {
+        font-size: 2rem;
+     }
 }
 
 @media only screen and (min-width: 0px) and (max-width: 480px) {
     .servicos img {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
-        margin-top: 2vh;
-        margin-bottom: 2vh;
-        margin-right: 9vw;
-    }
-
-    .divservicos {
         display: none;
-    }
+     }
+ 
+     .divservicos {
+         width: 100%;
+         margin-top: 2vh;
+         text-align: center;
+         margin-right: 5vw;
+         margin-bottom: 1vh;
+         font-size: 1rem;
+     }
+
+     .divservicos h1 {
+        font-size: 1.8rem;
+     }
 }

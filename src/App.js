@@ -7,6 +7,7 @@ import Contato from './pages/Contato';
 import Quemsomos from './pages/Quemsomos';
 import TrabalheConosco from './pages/TrabalheConosco';
 import MenuDropDown from './components/MenuDropDown';
+import FormUploadPDF from './pages/teste';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="/trabalheconosco" element={<TrabalheConosco />} />
         <Route path="/menudrop" element={<MenuDropDown />} />
         <Route path="*" element={<Home />} />
+        <Route path="/teste" element={<FormUploadPDF/>} /> 
       </Routes>
     </Router>
   );

@@ -10,10 +10,10 @@ export default function TrabalheConosco() {
       <PreNavBar />
       <Navbar />
       <div className={styles.containertrabalhe}>
-        <h1>Quer trabalhar com a gente?</h1>
+        <h1>QUE FAZER PARTE DA NOSSA EQUIPE?</h1>
         <div>
-          <h3>Caso queira trabalhar com a nossa equipe, envie um e-mail para <span>digital.rad@outlook.com</span></h3>
-          <h3>anexando o seu currículo em formato .pdf</h3>
+          <h3>Caso tenha interesse em trabalhar conosco, envie um e-mail para <span>digital.rad@outlook.com. </span> </h3>
+          <h3>Serão aceitos currículos somente em formato de arquivo PDF.</h3>
         </div>
       </div>
       <div>

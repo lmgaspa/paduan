@@ -14,12 +14,7 @@ export default function Servicos() {
           custos e encargos.</span>
       </h3>
       </div>
-      <div>
-      <h3>
-        Contamos com uma equipe de profissionais avaliados e
-        selecionados na nossa equipe.
-      </h3>
-      </div>
+   
       </div>
       <img className={styles.servicoimg} src={terceirizacao} alt="Sobre as vantagens de terceirizar"></img>
     </section>

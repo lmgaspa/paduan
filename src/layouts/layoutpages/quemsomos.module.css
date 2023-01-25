@@ -19,10 +19,24 @@
     margin-bottom: 0.8vh;
 }
 
-.containerquemprimeiro p {
+
+.containerquemprimeiro h2 {
+    color: black;
+    font-size: 1.6rem;
+    margin-bottom: 3.8vh;
+}
+
+.containerquemprimeiro h3 {
     margin-top: 1vh;
     color: black;
     margin-bottom: 3vh;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+
+.containerquemprimeiro span {
+    color: #004884;
 }
 
 .quemimagem {
@@ -31,42 +45,8 @@
     float: right;
     width: 50%;
     margin-right: 7vw;
-    margin-top: -45vh;
+    margin-top: -95vh;
     margin-bottom: 2vh;
-}
-
-.containerquemsegundo {
-    box-sizing: border-box;
-    color: black;
-    display: grid;
-    flex-direction: column;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.4rem;
-    text-align: center;
-    width: 60%;
-    margin: auto;
-}
-
-.containerquemsegundo h1 {
-    color: #004884;
-    margin-bottom: 0.8vh;
-}
-
-.containerquemsegundo p {
-    margin-top: 1vh;
-    color: black;
-    margin-bottom: 1.4vh;
-}
-
-.containerquemsegundo h2 {
-    color: #004884;
-    margin-bottom: 3.8vh;
-    font-size: 1.6rem;
-}
-
-.containerquemsegundo span {
-    color: #372465;
-    font-weight: 600;
 }
 
 @media only screen and (min-width: 769px) and (max-width: 1279px) {

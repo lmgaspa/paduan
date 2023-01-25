@@ -27,7 +27,7 @@ export default function Navbar() {
                     </div>
                 )}
                 <div className={styles.menudropshownav}>
-                    {shownav && <NavList />}  </div>
+                    {shownav && <NavList />} </div>
             </div>
         </section >
     )

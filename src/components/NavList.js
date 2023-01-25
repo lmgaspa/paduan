@@ -15,7 +15,6 @@ export default function NavList() {
           <li>
             <Link to="/orcamento">Faça o seu orçamento</Link>
           </li>
-
           <li>
             <Link to="/quemsomos">Quem Somos</Link>
           </li>
