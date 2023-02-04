@@ -11,7 +11,7 @@
 
 .navbar img {
     width: 18vw;
-    margin-left: 15vw;
+    margin-left: 12vw;
 }
 
 .navbar ul {
@@ -24,14 +24,14 @@
 
 .navbar ul li {
     display: flex;
-    padding-left: 1.2rem;
+    padding-left: 1rem;
 }
 
 .navbar ul li a {
     text-decoration: none;
     color: #372465;
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-weight: 600;
     display: flex;
 }
@@ -66,10 +66,18 @@
     display: none;
 }
 
+@media only screen and (min-width: 1280px) and (max-width: 1318px) {
+    .navbar ul li {
+        display: flex;
+        padding-left: 0.6rem;
+    }
+}
+
+
 @media only screen and (min-width: 769px) and (max-width: 1279px) {
     .navbar {
         margin-right: 4vw;
-        margin-bottom: -3vh;
+        margin-bottom: 0vh;
         height: auto;
         display: flex;
     }
@@ -86,7 +94,7 @@
 
     .invisivel {
         font-size: 250%;
-        margin-top: -4vh;
+        align-items: center;
         right: 10vw;
         display: flex;
         font-family: 'Montserrat', sans-serif;

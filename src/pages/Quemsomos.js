@@ -2,7 +2,6 @@ import React from 'react'
 import PreNavBar from '../components/PreNavBar'
 import Navbar from '../components/Navbar'
 import styles from '../layouts/layoutpages/quemsomos.module.css'
-import imagem from '../image/imagemempresa.png'
 
 export default function Quemsomos() {
   return (
@@ -28,13 +27,7 @@ export default function Quemsomos() {
           <h2>CASO QUEIRA CONHECER MELHOR SOBRE NOSSOS SERVIÇOS E
             SOLICITAR UM ORÇAMENTO, NOS ENVIE UM E-MAIL PARA <span>digital.rad@outlook.com</span></h2>
         </div>
-        <img className={styles.quemimagem} src={imagem} alt="imagem de radiologia"></img>
       </div>
     </section>
   )
 }
-
-/* {
-  
-  
-  */

@@ -10,6 +10,7 @@
     font-size: 2.5rem;
     padding-top: 18vh;
     padding-left: 10vw;
+    padding-bottom: 10vh;
 }
 
 .containerhome p {
@@ -46,7 +47,7 @@ button {
 }
 
 .button1 {
-    background-image: linear-gradient(to right, #fd0000 0%, #ff5353 100%);
+    background-image: linear-gradient(to right, #372465 0%, #009dc5 100%);
     padding: 1rem 5rem;
 }
 
@@ -55,11 +56,25 @@ button {
     padding: 1rem 6.4rem;
 }
 
+@media only screen and (min-width: 1280px) and (max-width: 1463px) {
+    .button1 {
+        margin-left: 2vw;
+        font-size: 1.4rem;
+        width: 36vw;
+    }
+    
+    .button2 {
+        margin-left: 2vw;
+        font-size: 1.4rem;
+        width: 36vw;
+    }
+}
+
 @media only screen and (min-width: 769px) and (max-width: 1279px) {
     .containerhome {
         font-size: 2.4rem;
         width: 100%;
-        height: 100%;
+        height: auto;
         padding: 0.1vh;
         justify-items: center;
         padding-left: 0;
