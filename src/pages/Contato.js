@@ -12,12 +12,12 @@ export default function Contato() {
       <Navbar />
       <div className={styles.containercontato}>
         <div>
-          <h1>Nosso telefone para contato:</h1>
-          <BsFillTelephoneFill /> (47)99934-2060
+          <h1>Telefone para contato</h1>
+          <BsFillTelephoneFill className={styles.objeto1}/> (47)99934-2060
         </div>
         <div>
-          <h1>Nosso e-mail para contato:</h1>
-          <AiOutlineMail/> digital.rad@outlook.com
+          <h1>E-mail para contato</h1>
+          <AiOutlineMail className={styles.objeto2}/> digital.rad@outlook.com
         </div>
       </div>
 

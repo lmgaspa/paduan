@@ -66,17 +66,17 @@ const FormOrcamento = () => {
         <Form className={styles.containerform}>
           <div>
             <Field type="text" name="fullname" id="fullname" className={styles.inputform}
-              placeholder="Digite o seu nome" />
+              placeholder="Digite seu nome" />
             <ErrorMessage className={styles.erro} name="fullname" component="div" />
           </div>
           <div>
             <Field type="email" name="email" id="email" className={styles.inputform}
-              placeholder="Digite o seu e-mail" />
+              placeholder="Digite seu e-mail" />
             <ErrorMessage className={styles.erro} name="email" component="div" />
           </div>
           <div>
             <Field type="telephone" name="telefone" id="telefone" className={styles.inputform}
-              placeholder="Digite o seu telefone"
+              placeholder="Digite seu telefone"
               value={phoneNumber}
               onChange={handleChange}
             />
@@ -84,7 +84,7 @@ const FormOrcamento = () => {
           </div>
           <div>
             <Field as="textarea" name="message" id="message"
-              placeholder="Digite a sua mensagem"
+              placeholder="Digite sua mensagem"
               className={styles.textarea} />
             <ErrorMessage className={styles.erro} name="message" component="div" />
           </div>

@@ -13,7 +13,7 @@ export default function NavList() {
             <Link to="/servicos">Serviços</Link>
           </li>
           <li>
-            <Link to="/orcamento">Faça o seu orçamento</Link>
+            <Link to="/orcamento">Faça seu orçamento</Link>
           </li>
           <li>
             <Link to="/quemsomos">Quem Somos</Link>

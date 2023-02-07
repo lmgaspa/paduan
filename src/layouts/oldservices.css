@@ -1,0 +1,91 @@
+
+
+/* {
+    
+    .servicos {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.servicos h1 {
+    color: #004884;
+    margin-bottom: 2rem;
+    font-size: 2.2rem;
+}
+
+.servicos h3 {
+    color: black;
+    font-size: 1.6rem;
+    font-weight: 400;
+    width: 80vw;
+    margin-bottom: 2rem;
+}
+
+.imagem {
+    width: 25%;
+}
+
+.divimagens {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+@media only screen and (min-width: 1280px) and (max-width: 1500px) {
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1279px) {
+    .servicos h1 {
+        font-size: 2rem;
+    }
+    .servicos h3 {
+        font-size: 1.4rem;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .divimagens {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .imagem {
+        width: 50%;
+        margin-bottom: 1rem;
+    }
+    .servicos h1 {
+        font-size: 1.8rem;
+    }
+    .servicos h3 {
+        font-size: 1.3rem;
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 480px) {
+    .divimagens {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .imagem {
+        width: 60%;
+        margin-bottom: 1rem;
+    }
+
+    .servicos h1 {
+        font-size: 1.5rem;
+    }
+    .servicos h3 {
+        font-size: 1.2rem;
+    }
+}
+
+*/

@@ -8,17 +8,17 @@ export default function footer() {
   return (
     <section className={styles.containerfooter}>
       <div>
-        <IoLocationOutline />
+        <IoLocationOutline className={styles.icon1}/>
         Endereço:
         <p>Rua Padre Estanislau Piasecki, 426, CIC- Curitiba/PR
         </p>
         </div>
         <div>
-        <BsFillTelephoneFill />Telefone:
+        <BsFillTelephoneFill className={styles.icon2}/>Telefone:
         <p>(47)99934-2060</p>
         </div>
         <div>
-        <AiOutlineMail />E-mail:<p>digital.rad@outlook.com</p>
+        <AiOutlineMail className={styles.icon3}/>E-mail:<p>digital.rad@outlook.com</p>
       </div>
          </section>
   )

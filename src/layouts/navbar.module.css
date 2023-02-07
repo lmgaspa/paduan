@@ -3,7 +3,6 @@
 }
 
 .navbar {
-    box-sizing: border-box;
     height: auto;
     display: flex;
     align-items: center;

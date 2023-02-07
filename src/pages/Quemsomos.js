@@ -22,7 +22,7 @@ export default function Quemsomos() {
             Dentre nossos parceiros estão, a Irmandade da Santa Casa de Misericórdia de
             Curitiba, a AMIL do United Health Group , Centro de Diagnóstico Capão Raso, Clínica Dr.
             Mantovani na cidade de Fazenda Rio Grande, FEAS - Fundação Estatal de Atenção à
-            Saúde de Curitiba, entre outros no interior do Estado Do Paraná, que podem atestar a
+            Saúde de Curitiba, entre outros no interior do Estado do Paraná, que podem atestar a
             satisfação e o sucesso da nossa parceria</h3>
           <h2>CASO QUEIRA CONHECER MELHOR SOBRE NOSSOS SERVIÇOS E
             SOLICITAR UM ORÇAMENTO, NOS ENVIE UM E-MAIL PARA <span>digital.rad@outlook.com</span></h2>

@@ -17,6 +17,15 @@
     padding-top: 1vh;
 }
 
+.objeto1 {
+    margin-bottom: -2px;
+}
+
+.objeto2 {
+    font-size: 1.1rem;
+    margin-bottom: -3px;
+}
+
 @media only screen and (min-width: 0px) and (max-width: 480px) {
     .containercontato {
         width: auto;
