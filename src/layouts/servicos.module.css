@@ -6,6 +6,7 @@
 
     .servicodiv {
         margin: 4rem;
+        margin-top: 20vh;
         text-align: center;
     }
 
@@ -32,6 +33,10 @@
         margin-bottom: 10vh;
     }
 
+    .servicodiv {
+        margin-top: 5vh;
+    }
+
     .servicos img {
         width: 40vw;
     }
@@ -41,6 +46,10 @@
             margin-top: 3rem;
             margin-bottom: 10vh;
             margin-left: 20vw;
+        }
+
+        .servicodiv {
+            margin-top: 5vh;
         }
     
         .servicos h1 {
