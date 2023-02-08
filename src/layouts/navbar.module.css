@@ -3,6 +3,7 @@
 }
 
 .navbar {
+    box-sizing: border-box;
     height: auto;
     display: flex;
     align-items: center;
@@ -104,7 +105,7 @@
         position: absolute;
         font-size: 1rem;
         background-color: #fbfeff;
-        margin-top: 10vh; 
+        margin-top: 6vh; 
         right: -7vw;
         width: 90vw;
         padding-left: 5vw;
@@ -164,10 +165,10 @@
         position: absolute;
         font-size: 1rem;
         background-color: #fbfeff;
-        margin-top: 10vh; 
+        margin-top: 6vh; 
         right: -7vw;
-        width: 90vw;
-        padding-left: 5vw;
+        width: 100vw;
+        padding-left: 8vw;
         padding-right: 5vw;
     }
 
@@ -225,9 +226,9 @@
         position: absolute;
         font-size: 1rem;
         background-color: #fbfeff;
-        margin-top: 10vh; 
+        margin-top: 5vh; 
         right: -7vw;
-        width: 90vw;
+        width: 100vw;
         padding-left: 5vw;
         padding-right: 5vw;
     }

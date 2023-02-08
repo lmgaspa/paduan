@@ -45,10 +45,11 @@
     .containerservicospage {
         display: grid;
         flex-direction: column;
-        width: 190%;
+        width: 200%;
         text-align: center;
-        padding-left: 2vw;
+        padding-left: 10vw;
         padding-right: 6vw;
+        margin-top: -10vh;
     }
 
 
@@ -65,16 +66,22 @@
     }
 }
 
-@media only screen and (min-width: 481px) and (max-width: 768px) {
+@media only screen and (min-width: 480px) and (max-width: 768px) {
     .containerservicospage {
         display: grid;
         flex-direction: column;
-        width: 190%;
+        width: 220%;
         text-align: center;
-        padding-left: 2vw;
+        padding-left: 10vw;
         padding-right: 6vw;
+        margin-top: -10vh;
     }
 
+
+    .containerservicostexto {
+        padding-left: 0;
+        padding-right: 0;
+    }
 
     .containerservicostexto h1 {
         font-size: 1.8rem;
@@ -94,12 +101,11 @@
     .containerservicospage {
         display: grid;
         flex-direction: column;
-        width: 190%;
+        width: 200%;
         text-align: center;
-        padding-left: 2vw;
+        padding-left: 10vw;
         padding-right: 6vw;
-        word-wrap: break-word;
- 
+        margin-top: -10vh;
     }
 
     .containerservicostexto h1 {

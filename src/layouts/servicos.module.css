@@ -1,130 +1,119 @@
     .servicos {
         display: flex;
-        flex-direction: column;
+        margin-top: 10rem;
+        justify-content: center;
+    }
+
+    .servicodiv {
+        margin: 4rem;
         text-align: center;
-        margin-top: 2rem;
-        width: 30vw;
-        margin-left: 15vw;
-        margin-top: 5vw;
     }
 
     .servicos h1 {
+        flex: 1;
         color: #004884;
-        margin-bottom: 2rem;
         font-size: 2.2rem;
-        padding-top: 10vh;
+        margin-bottom: 2rem;
+
     }
 
     .servicos h3 {
         color: black;
         font-size: 1.6rem;
         font-weight: 400;
+        width: 40vw;
+
     }
 
-    .divimagens {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        margin-top: -30vh;
-        margin-right: 10vw;
-        justify-content: flex-end;
+    @media only screen and (min-width: 900px) and (max-width: 1279px) {}
+
+    .servicos {
+        margin-top: 3rem;
+        margin-bottom: 10vh;
     }
 
-    @media only screen and (min-width: 1280px) and (max-width: 1500px) {
+    .servicos img {
+        width: 40vw;
+    }
+
+    @media only screen and (min-width: 769px) and (max-width: 899px) {
         .servicos {
-            margin-left: 10vw;
+            margin-top: 3rem;
+            margin-bottom: 10vh;
+            margin-left: 20vw;
         }
-        
-        .divimagens {
-            display: flex;
-            flex-direction: row;
-            justify-content: space-evenly;
-            margin-right: 5vw;
-            margin-top: -40vh;
-            justify-content: flex-end;
-        }
-    }
-
-    @media only screen and (min-width: 769px) and (max-width: 1279px) {
-        .servicos {
-            margin-left: 12vw;
-            margin-top: 14vw;
-            margin-bottom: 30vh;
-        }
-
-        .servicos h1{
-            margin-top: -10vw;
-        }
-        
-        .divimagens {
-            display: flex;
-            justify-content: flex-end;
-            margin-bottom: 5vh;
-        }
-
-        .divimagens img {
-            width: 40vw;
-            max-width: 40vw;
-            margin-top: -40vh;
-        }
-        
+    
         .servicos h1 {
+            flex: 1;
+            color: #004884;
             font-size: 2rem;
+            margin-bottom: 2rem;
+        }
+    
+        .servicos h3 {
+            color: black;
+            font-size: 1.4rem;
+            font-weight: 400;
+            width: 30vw;
         }
 
-        .servicos h3 {
-            font-size: 1.4rem;
+        .servicos img {
+            width: 50vw;
+            margin-right: 25vw;
         }
     }
 
     @media only screen and (min-width: 481px) and (max-width: 768px) {
         .servicos {
-            text-align: center;
+            margin-top: 0rem;
+            margin-bottom: 10vh;
+            display: flex;
+            flex-direction: column;
+        }
+    
+        .servicos h1 {
+            flex: 1;
+            color: #004884;
+            font-size: 2rem;
+            margin-bottom: 2rem;
+        }
+    
+        .servicos h3 {
+            color: black;
+            font-size: 1.4rem;
+            font-weight: 400;
             width: auto;
             margin: 0;
-            margin-top: -60px;
-            padding-left: 10px;
-            padding-right: 10px;
-        }
-        
-        .divimagens {
-            display: none;
         }
 
-        .servicos h1 {
-            font-size: 1.8rem;
-        }
-
-        .servicos h3 {
-            font-size: 1.3rem;
+        .servicos img {
+            width: auto;
         }
     }
 
     @media only screen and (min-width: 0px) and (max-width: 480px) {
         .servicos {
-            text-align: center;
-            width: auto;
-            margin: 0;
-            margin-top: -60px;
-            padding-left: 10px;
-            padding-right: 10px;
-            margin-bottom: 2vh;
+            margin-top: 0vh;
+            margin-bottom: 0vh;
+            margin-left: 0vw;
         }
-        
-        .divimagens {
-            display: none;
-        }
-
-        .imagem {
-            width: 60%;
-            margin-bottom: 1rem;
-        }
-
+    
         .servicos h1 {
+            flex: 1;
+            color: #004884;
             font-size: 1.5rem;
+            margin-bottom: 2rem;
+            margin-top: 0vh;
+        }
+    
+        .servicos h3 {
+            color: black;
+            font-size: 1.4rem;
+            font-weight: 400;
+            width: 80vw;
         }
 
-        .servicos h3 {
-            font-size: 1.2rem;
+        .servicos img {
+           display: none;
         }
     }
