@@ -15,7 +15,7 @@ export default function footer() {
         </div>
         <div>
         <BsFillTelephoneFill className={styles.icon2}/>Telefone:
-        <p>(47)99934-2060</p>
+        <p >(47)99934-2060</p>
         </div>
         <div>
         <AiOutlineMail className={styles.icon3}/>E-mail:<p>digital.rad@outlook.com</p>

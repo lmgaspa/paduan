@@ -10,12 +10,12 @@
 }
 
 .containerfooter p {
-    margin-top: 1vh;
+    margin-top: 2vh;
 }
 
 .icon1 {
 font-size: 1.6rem;
-margin-bottom: -0.3rem;
+margin-bottom: -0.4rem;
 margin-right: 0.5rem;
 }
 
@@ -25,7 +25,7 @@ margin-right: 0.5rem;
 }
 
 .icon3 {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     margin-bottom: -0.4rem;
     margin-right: 0.6rem;
 }
