@@ -1,9 +1,4 @@
-.containermenunav {
-    display: flex;
-}
-
 .navbar {
-    box-sizing: border-box;
     height: auto;
     display: flex;
     align-items: center;
@@ -24,14 +19,13 @@
 
 .navbar ul li {
     display: flex;
-    padding-left: 1rem;
+    padding-left: 1.1rem;
 }
 
 .navbar ul li a {
     text-decoration: none;
     color: #372465;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1rem;
+    font-size: 1.3rem;
     font-weight: 600;
     display: flex;
 }
@@ -46,32 +40,71 @@
     color: black;
     margin-top: -7vh;
     display: flex;
-    font-family: 'Montserrat', sans-serif;
     float: right;
     flex-direction: column;
     position: absolute;
+    z-index: 1;
     right: 4vw;
     display: none;
 }
 
-.menudrop {
-    display: none;
-}
+.menudropshownav {
+    position: absolute;
+    top: 10vw;
+    right: -10vw;
+    width: 100vw;
+    text-align: center;
+    background-color: #372465;
+    display: flex;
+    flex-direction: column;
+    z-index: 0;
+    margin-top: 2px;
+    opacity: 0;
+    transition: opacity 0.8s ease;
+  }
+  
+  .menudropshownav--active {
+    opacity: 1;
+  }
 
-.menudropshow {
-    display: none;
-}
+  .menudropshownav ul {
+    list-style: none;
+    margin: 0;
+    margin-bottom: 2vh;
+  }
+  
+  .menudropshownav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+  }
 
-.menudropshow ul li a {
-    display: none;
-}
+@media only screen and (min-width: 1400px) and (max-width: 1700px) {
+   .navbar img {
+    margin-top: 2vh;
+   }
 
-@media only screen and (min-width: 1280px) and (max-width: 1318px) {
-    .navbar ul li {
-        display: flex;
-        padding-left: 0.6rem;
+   .navbar ul {
+    margin-left: 10vw;
+   }
+    .navbar ul li a {
+        font-size: 1.1rem;
     }
 }
+
+@media only screen and (min-width: 1280px) and (max-width: 1399px) {
+    .navbar img {
+     margin-top: 2vh;
+    }
+ 
+    .navbar ul {
+     margin-left: 8vw;
+    }
+     .navbar ul li a {
+         font-size: 1rem;
+     }
+ }
 
 
 @media only screen and (min-width: 769px) and (max-width: 1279px) {
@@ -98,41 +131,6 @@
         margin-top: -10vw;
         right: 10vw;
         display: flex;
-        font-family: 'Montserrat', sans-serif;
-    }
-
-    .menudropshownav {
-        position: absolute;
-        font-size: 1rem;
-        background-color: #fbfeff;
-        margin-top: 6vh; 
-        right: -7vw;
-        width: 90vw;
-        padding-left: 5vw;
-        padding-right: 5vw;
-    }
-
-    .menudropshownav ul {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        border: 1px solid rgb(69, 143, 255);
-        border-radius: 15px;
-        padding-top: 1vh;
-        font-weight: 600;
-    }
-
-    .menudropshownav ul li {
-        display: inline-block;
-        list-style: none;
-        margin-bottom: 1vh;
-    }
-
-    .menudropshownav ul li a {
-        text-decoration: none;
-        display: flex;
-        flex-direction: column;
-        margin-bottom: 1.8vh;
     }
 }
 
@@ -158,42 +156,10 @@
         margin-top: -7vh;
         right: 10vw;
         display: flex;
-        font-family: 'Montserrat', sans-serif;
     }
 
     .menudropshownav {
-        position: absolute;
-        font-size: 1rem;
-        background-color: #fbfeff;
-        margin-top: 6vh; 
-        right: -7vw;
-        width: 100vw;
-        padding-left: 8vw;
-        padding-right: 5vw;
-    }
-
-    .menudropshownav ul {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        border: 1px solid rgb(69, 143, 255);
-        border-radius: 15px;
-        padding-top: 1vh;
-        font-weight: 600;
-    }
-
-
-    .menudropshownav ul li {
-        display: inline-block;
-        list-style: none;
-        margin-bottom: 0vh;
-    }
-
-    .menudropshownav ul li a {
-        text-decoration: none;
-        display: flex;
-        flex-direction: column;
-        margin-bottom: 2vh; 
+        margin-top: 3vh;
     }
 }
 
@@ -219,41 +185,9 @@
         margin-top: -4.5vh;
         right: 9vw;
         display: flex;
-        font-family: 'Montserrat', sans-serif;
     }
 
     .menudropshownav {
-        position: absolute;
-        font-size: 1rem;
-        background-color: #fbfeff;
-        margin-top: 5vh; 
-        right: -7vw;
-        width: 100vw;
-        padding-left: 5vw;
-        padding-right: 5vw;
-    }
-
-    .menudropshownav ul {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        border: 1px solid rgb(69, 143, 255);
-        border-radius: 15px;
-        padding-top: 1vh;
-        font-weight: 600;
-    }
-
-
-    .menudropshownav ul li {
-        display: inline-block;
-        list-style: none;
-        margin-bottom: 0vh;
-    }
-
-    .menudropshownav ul li a {
-        text-decoration: none;
-        display: flex;
-        flex-direction: column;
-        margin-bottom: 2vh; 
+        margin-top: 4vh;
     }
 }

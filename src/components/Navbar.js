@@ -5,30 +5,31 @@ import NavList from './NavList'
 import { AiOutlineMenu } from 'react-icons/ai'
 
 export default function Navbar() {
-    const [shownav, setShowNav] = useState(false)
+    const [shownav, setShowNav] = useState(false);
+  
     const handleClick = event => {
-        // 👇️ toggle shown state
-        setShowNav(current => !current);
+      event.preventDefault();
+      setShowNav(current => !current);
     };
-
+  
+    const menuClasses = `${styles.menudropshownav} ${
+      shownav ? styles['menudropshownav--active'] : ''
+    }`;
+  
     return (
-        <section>
-            <div className={styles.containermenunav}>
-                <nav className={styles.navbar}>
-                    <img src={logo} alt="logo da empresa"></img>
-                    <NavList />
-                </nav>
-            </div>
-            <div className={styles.invisivel}>
-                <AiOutlineMenu
-                    onClick={handleClick} />
-                {shownav && (
-                    <div className={styles.containermenunav}>
-                    </div>
-                )}
-                <div className={styles.menudropshownav}>
-                    {shownav && <NavList />} </div>
-            </div>
-        </section >
-    )
-}
+      <section>
+        <div className={styles.containermenunav}>
+          <nav className={styles.navbar}>
+            <img src={logo} alt="logo da empresa"></img>
+            <NavList />
+          </nav>
+        </div>
+        <div className={styles.invisivel}>
+          <AiOutlineMenu onClick={handleClick} />
+          <div className={menuClasses}>
+            <NavList />
+          </div>
+        </div>
+      </section>
+    );
+  }
