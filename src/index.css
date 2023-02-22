@@ -11,7 +11,7 @@ html,
 body {
     background-color: #fff;
     color: #555;margin: 0;
-    font-family: 'Montserrat', sans-serif;
+    font-family: Calibri, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
@@ -19,5 +19,5 @@ body {
 }
 
 code {
-  font-family: 'Montserrat', sans-serif;
+  font-family: Calibri, sans-serif;
 }

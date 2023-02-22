@@ -4,7 +4,7 @@
     text-align: center;
     width: 50%;
     margin: auto;
-    background-color:  #004884;
+    background-color:  #06234e;
 }
 
 .containerOrcamento h1 {
@@ -15,7 +15,20 @@
     margin-bottom: 2vh;
 }
 
+@media only screen and (min-width: 769px) and (max-width: 1290px) {
+    .containerOrcamento {
+        width: 100%;
+        margin-top: 3vh;
+        margin-bottom: 1vh;
+    }
 
+    .containerOrcamento h1 {
+        width: 60%;
+        margin: auto;
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+    }
+}
 
 @media only screen and (min-width: 481px) and (max-width: 768px) {
     .containerOrcamento {
@@ -32,12 +45,10 @@
         width: auto;
         margin-top: 3vh;
         margin-bottom: 1vh;
-        margin-left: 5vw;
-        margin-right: 5vw;
     }
     
     .containerOrcamento h1 {
-        color: #004884;
+        color: white;
         margin-bottom: 0.8vh;
         font-size: 1.6rem;
         font-weight: 500;

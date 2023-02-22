@@ -9,10 +9,12 @@ export default function Orcamento() {
     <section>
       <PreNavBar />
       <Navbar />
-      <div className={styles.containerOrcamento}>
-      <h1> Caso queira solicitar nosso orçamento, preencha o campo abaixo e envie sua mensagem</h1>
-      <FormOrcamento />
+      <div>
+        <div className={styles.containerOrcamento}>
+          <h1> Caso queira solicitar nosso orçamento, preencha o campo abaixo e envie sua mensagem</h1>
+          <FormOrcamento />
+        </div>
       </div>
-      </section>
+    </section>
   )
 }

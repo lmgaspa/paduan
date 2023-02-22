@@ -66,7 +66,7 @@ const FormOrcamento = () => {
         <Form className={styles.containerform}>
           <div>
             <div>
-              <label htmlFor="fullname" style={{ color: "white", display: 'flex', justifyContent: 'left', marginBottom: 5}}>Nome: </label>
+              <label htmlFor="fullname" style={{ color: "white", display: 'flex', justifyContent: 'left', marginBottom: 5}}>Nome </label>
             </div>
             <Field type="text" name="fullname" id="fullname" className={styles.inputform}
               placeholder="Digite seu nome" />
@@ -74,7 +74,7 @@ const FormOrcamento = () => {
           </div>
           <div>
           <div>
-              <label htmlFor="fullname" style={{ color: "white", display: 'flex', justifyContent: 'left', marginBottom: 5}}>E-mail: </label>
+              <label htmlFor="fullname" style={{ color: "white", display: 'flex', justifyContent: 'left', marginBottom: 5}}>E-mail </label>
             </div>
             <Field type="email" name="email" id="email" className={styles.inputform}
               placeholder="Digite seu e-mail" />
@@ -82,7 +82,7 @@ const FormOrcamento = () => {
           </div>
           <div>
           <div>
-              <label htmlFor="fullname" style={{ color: "white", display: 'flex', justifyContent: 'left', marginBottom: 5}}>Telefone: </label>
+              <label htmlFor="fullname" style={{ color: "white", display: 'flex', justifyContent: 'left', marginBottom: 5}}>Telefone </label>
             </div>
             <Field type="telephone" name="telefone" id="telefone" className={styles.inputform}
               placeholder="Digite seu telefone"

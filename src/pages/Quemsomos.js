@@ -19,8 +19,8 @@ export default function Quemsomos() {
             segurança e qualidade para o serviço.</h3>
           <h1>Quem são os nossos parceiros?</h1>
           <h3>
-            Dentre nossos parceiros estão, a Irmandade da Santa Casa de Misericórdia de
-            Curitiba, a AMIL do United Health Group , Centro de Diagnóstico Capão Raso, Clínica Dr.
+            Dentre nossos parceiros estão, a Irmandade da Santa Casa Nossa Senhora das Graças, a AMIL do United Health Group,
+            Centro de Diagnóstico Capão Raso, Clínica Dr.
             Mantovani na cidade de Fazenda Rio Grande, FEAS - Fundação Estatal de Atenção à
             Saúde de Curitiba, entre outros no interior do Estado do Paraná, que podem atestar a
             satisfação e o sucesso da nossa parceria</h3>

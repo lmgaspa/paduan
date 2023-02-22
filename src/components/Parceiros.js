@@ -2,7 +2,7 @@ import React from 'react'
 import Amil from '../image/amil.png'
 import Capao from '../image/logo_cd_capao_raso.png'
 import Feas from '../image/feas.png'
-import Santa from '../image/santacasacuritiba.png'
+import Santa from '../image/santacasa.png'
 import styles from '../layouts/parceiros.module.css'
 
 export default function Parceiros() {
