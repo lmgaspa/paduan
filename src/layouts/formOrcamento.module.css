@@ -4,10 +4,11 @@
     text-align: center;
     width: 50%;
     margin: auto;
+    background-color:  #004884;
 }
 
 .containerOrcamento h1 {
-    color: #004884;
+    color: white;
     margin-bottom: 0.8vh;
     font-size: 1.8rem;
     margin-top: 3vh;

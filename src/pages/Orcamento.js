@@ -11,8 +11,8 @@ export default function Orcamento() {
       <Navbar />
       <div className={styles.containerOrcamento}>
       <h1> Caso queira solicitar nosso orçamento, preencha o campo abaixo e envie sua mensagem</h1>
-      </div>
       <FormOrcamento />
+      </div>
       </section>
   )
 }

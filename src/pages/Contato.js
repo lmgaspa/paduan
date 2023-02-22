@@ -15,12 +15,11 @@ export default function Contato() {
           <h1>Telefone para contato</h1>
           <BsFillTelephoneFill className={styles.objeto1}/> (47)99934-2060
         </div>
-        <div>
+        <div style={{marginTop: 10}}>
           <h1>E-mail para contato</h1>
           <AiOutlineMail className={styles.objeto2}/> digital.rad@outlook.com
         </div>
       </div>
-
     </section >
   )
 }

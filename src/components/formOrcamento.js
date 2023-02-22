@@ -65,16 +65,25 @@ const FormOrcamento = () => {
       {({ isSubmitting }) => (
         <Form className={styles.containerform}>
           <div>
+            <div>
+              <label htmlFor="fullname" style={{ color: "white", display: 'flex', justifyContent: 'left', marginBottom: 5}}>Nome: </label>
+            </div>
             <Field type="text" name="fullname" id="fullname" className={styles.inputform}
               placeholder="Digite seu nome" />
             <ErrorMessage className={styles.erro} name="fullname" component="div" />
           </div>
           <div>
+          <div>
+              <label htmlFor="fullname" style={{ color: "white", display: 'flex', justifyContent: 'left', marginBottom: 5}}>E-mail: </label>
+            </div>
             <Field type="email" name="email" id="email" className={styles.inputform}
               placeholder="Digite seu e-mail" />
             <ErrorMessage className={styles.erro} name="email" component="div" />
           </div>
           <div>
+          <div>
+              <label htmlFor="fullname" style={{ color: "white", display: 'flex', justifyContent: 'left', marginBottom: 5}}>Telefone: </label>
+            </div>
             <Field type="telephone" name="telefone" id="telefone" className={styles.inputform}
               placeholder="Digite seu telefone"
               value={phoneNumber}
@@ -83,6 +92,9 @@ const FormOrcamento = () => {
             <ErrorMessage className={styles.erro} name="telefone" component="div" />
           </div>
           <div>
+          <div>
+              <label htmlFor="fullname" style={{ color: "white", display: 'flex', justifyContent: 'left', marginBottom: 5}}>Mensagem </label>
+            </div>
             <Field as="textarea" name="message" id="message"
               placeholder="Digite sua mensagem"
               className={styles.textarea} />
