@@ -19,20 +19,20 @@
 
 .navbar ul li {
     display: flex;
-    padding-left: 1.1rem;
+    padding-left: 2rem;
 }
 
 .navbar ul li a {
     text-decoration: none;
-    color: #372465;
+    color: #000000;
     font-size: 1.3rem;
-    font-weight: 600;
+    font-weight: 400;
     display: flex;
 }
 
 .navbar ul li a:hover {
     text-decoration: none;
-    color: #f73e1e;
+    color: #18c8e7;
 }
 
 .menuDropdown {

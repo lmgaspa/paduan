@@ -1,130 +1,205 @@
-    .servicos {
-        display: flex;
-        margin-top: 10rem;
-        justify-content: center;
+  .box {
+    margin-top: 20px;
+  }
+
+  .box img {
+    width: 100%;
+    height: 400px;
+  }
+
+  .divservicospage {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px
+  }
+
+  .divleft {
+    text-align: left;
+    margin-left: 6vw;
+    flex-basis: 40%;
+  }
+
+  .divleft h1 {
+    color: #004884;
+    margin-bottom: 1.4rem;
+    text-align: center;
+    font-size: 28.8px;
+  }
+
+  .divleft h3 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    color: black;
+    font-weight: 400;
+  }
+
+  .divright {
+    margin-left: 120px;
+    ;
+    flex-basis: 60%;
+    display: flex;
+  }
+
+  .divright img {
+    margin-top: 30px;
+    width: 80%;
+    height: 80%;
+  }
+
+  .divleft span {
+    font-weight: bold;
+    color: #004884;
+  }
+
+  .box2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%s;
+    height: 100%;
+    background-color: #372465;
+    color: white;
+    padding-bottom: 5vh;
+    margin-top: 50px;
+  }
+
+  .box2 h1 {
+    margin-top: 5vh;
+    font-size: 28px;
+  }
+
+  .table {
+    width: 80%;
+    height: auto;
+    border-collapse: collapse;
+    font-size: 14px;
+    table-layout: fixed; /* Fixes table layout to prevent columns from stretching */
+  }
+  
+  .table td {
+    padding-top: 3rem;
+    text-align: center;
+    word-wrap: break-word;
+  }
+
+  .invisivelterc {
+    display: none;
+  }
+
+  @media only screen and (min-width: 1280px) and (max-width: 1600px) {
+    .box img {
+      height: 280px;
+    }
+    .divright{
+      display: flex;
     }
 
-    .servicodiv {
-        margin: 4rem;
-        margin-top: 20vh;
-        text-align: center;
+    .divright img {
+      width: 100%;
+      height: 80%;
+      margin-top: 6vh;
+      padding-right: 50px;
     }
 
-    .servicos h1 {
-        flex: 1;
-        color: #004884;
-        font-size: 2.2rem;
-        margin-bottom: 2rem;
+    .box2 h2 {
+      font-size: 22px;
+    }
+  }
 
+  @media only screen and (min-width: 820px) and (max-width: 1279px) {
+    .box img {
+      height: 280px;
     }
 
-    .servicos h3 {
-        color: black;
-        font-size: 1.6rem;
-        font-weight: 400;
-        width: 40vw;
-
+    .divleft {
+     flex-basis: 100%;
+     margin-right: 2vw;
     }
 
-    @media only screen and (min-width: 900px) and (max-width: 1279px) {}
-
-    .servicos {
-        margin-top: 3rem;
-        margin-bottom: 10vh;
+    .divleft h1 {
+      font-size: 32px;
     }
 
-    .servicodiv {
-        margin-top: 5vh;
+    .divright{
+      display: none;
     }
 
-    .servicos img {
-        width: 40vw;
+    .box2 {
+      font-size: 14px;
     }
 
-    @media only screen and (min-width: 769px) and (max-width: 899px) {
-        .servicos {
-            margin-top: 3rem;
-            margin-bottom: 10vh;
-            margin-left: 20vw;
-        }
-
-        .servicodiv {
-            margin-top: 5vh;
-        }
-    
-        .servicos h1 {
-            flex: 1;
-            color: #004884;
-            font-size: 2rem;
-            margin-bottom: 2rem;
-        }
-    
-        .servicos h3 {
-            color: black;
-            font-size: 1.4rem;
-            font-weight: 400;
-            width: 30vw;
-        }
-
-        .servicos img {
-            width: 50vw;
-            margin-right: 25vw;
-        }
+    .box2 h1 {
+      font-size: 24px;
+    }
+    .box2 h2 {
+      font-size: 18px;
+    }
+    .table {
+      width: 80%;
     }
 
-    @media only screen and (min-width: 481px) and (max-width: 768px) {
-        .servicos {
-            margin-top: 0rem;
-            margin-bottom: 10vh;
-            display: flex;
-            flex-direction: column;
-        }
-    
-        .servicos h1 {
-            flex: 1;
-            color: #004884;
-            font-size: 2rem;
-            margin-bottom: 2rem;
-        }
-    
-        .servicos h3 {
-            color: black;
-            font-size: 1.4rem;
-            font-weight: 400;
-            width: auto;
-            margin: 0;
-        }
+  }
 
-        .servicos img {
-            width: auto;
-        }
+  @media only screen and (min-width: 479px) and (max-width: 819px) {
+    .box img {
+      height: 230px;
     }
 
-    @media only screen and (min-width: 0px) and (max-width: 480px) {
-        .servicos {
-            height: auto;
-            margin-top: 0vh;
-            margin-bottom: auto;
-            margin-left: 0vw;
-        }
-    
-        .servicos h1 {
-            flex: 1;
-            color: #004884;
-            font-size: 1.5rem;
-            margin-bottom: rem;
-            margin-top: 0vh;
-        }
-    
-        .servicos h3 {
-            color: black;
-            font-size: 1.4rem;
-            font-weight: 400;
-            width: 80vw;
-            margin-bottom: -30px;
-        }
-
-        .servicos img {
-           display: none;
-        }
+    .divleft {
+     flex-basis: 100%;
+     margin-right: 2vw;
     }
+
+    .divleft h1 {
+      font-size: 30px;
+    }
+
+    .divright{
+      display: none;
+    }
+    .box2 {
+      display: none;
+    }
+
+    .invisivelterc {
+      display: flex;
+      width: 100%;
+      margin-top: 50px;
+      margin-bottom: 50px;
+    }
+    .table {
+      width: 100%;
+    }
+  }
+
+  @media only screen and (min-width: 0px) and (max-width: 478px) {
+    .box img {
+      height: 150px;
+    }
+
+    .divleft {
+     flex-basis: 100%;
+     margin-right: 2vw;
+    }
+
+    .divright{
+      display: none;
+    }
+    .divleft h1{
+      font-size: 26px;
+    }
+    .divleft h3{
+      font-size: 18px;
+    }
+
+    .box2 {
+      display: none;
+    }
+
+    .invisivelterc {
+      display: flex;
+      width: 100%;
+      margin-top: 50px;
+      margin-bottom: 50px;
+    }
+  }

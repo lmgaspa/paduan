@@ -2,7 +2,7 @@
     height: auto;
     color: black;
     font-weight: 600;
-    font-size: 2.2rem;
+    font-size: 2rem;
 }
 
 .containerhome p {
@@ -13,12 +13,12 @@
 
 .containerhome span {
     color: #004884;
-    font-size: 2.2rem;
+    font-size: 2.4rem;
 }
 
 .containerhome .span2 {
     color: #004884;
-    font-size: 1.8rem;
+    font-size: 2rem;
 }
 
 .divleft {
@@ -60,16 +60,15 @@
     padding: 0.7rem 6.4rem;
 }
 
+.divleft button:hover{
+    background-color:#004884;
+}
+
 @media only screen and (min-width: 1280px) and (max-width: 1463px) {
     .divleft button {
         margin-left: 2vw;
         font-size: 1.4rem;
         width: 70%;
-    }
-
-    .containerhome .span2 {
-        color: #004884;
-        font-size: 1.8rem;
     }
 
     .containerhome p {
@@ -79,13 +78,17 @@
 }
 
 @media only screen and (min-width: 769px) and (max-width: 1279px) {
+    .containerhome {
+        font-size: 2rem;
+    }
+
+    .containerhome span {
+        font-size: 2.2rem;
+    }
+    
     .containerhome p {
         max-width: 95vw;
         text-align: center;
-    }
-
-    .containerhome .span2 {
-        font-size: 1.8rem;
     }
 
     .divleft {

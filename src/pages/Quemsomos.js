@@ -2,6 +2,7 @@ import React from 'react'
 import PreNavBar from '../components/PreNavBar'
 import Navbar from '../components/Navbar'
 import styles from '../layouts/layoutpages/quemsomos.module.css'
+import imgservico from '../../src/image/imgservico.png'
 
 export default function Quemsomos() {
   return (
@@ -26,6 +27,9 @@ export default function Quemsomos() {
             satisfação e o sucesso da nossa parceria</h3>
           <h2>CASO QUEIRA CONHECER MELHOR SOBRE NOSSOS SERVIÇOS E
             SOLICITAR UM ORÇAMENTO, NOS ENVIE UM E-MAIL PARA <span>digital.rad@outlook.com</span></h2>
+        </div>
+        <div className={styles.quemsomosright}>
+          <img src={imgservico} alt="foto"></img>
         </div>
       </div>
     </section>

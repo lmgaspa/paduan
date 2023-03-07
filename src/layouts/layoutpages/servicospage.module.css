@@ -1,119 +1,87 @@
-.servicos {
+.divservicospage {
     display: flex;
-    margin-top: 10rem;
     justify-content: center;
+    margin-top: 50px
 }
 
-.servicodiv {
-    margin: 4rem;
-    text-align: center;
+.divleft {
+    text-align: left;
+    margin-left: 6vw;
+    flex-basis: 40%;
 }
 
-.servicos h1 {
-    flex: 1;
+.divleft h1 {
     color: #004884;
-    font-size: 2.2rem;
-    margin-bottom: 2rem;
-
+    margin-bottom: 1.4rem;
+    text-align: center;
+    font-size: 28.8px;
 }
 
-.servicos h3 {
+.divleft h3 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
     color: black;
-    font-size: 1.6rem;
     font-weight: 400;
-    width: 40vw;
-
 }
 
-@media only screen and (min-width: 900px) and (max-width: 1279px) {}
-
-.servicos {
-    margin-top: 3rem;
-    margin-bottom: 10vh;
+.divright {
+    margin-left: 120px;
+  ;
+    flex-basis: 60%;
+    display: flex;
 }
 
-.servicos img {
-    width: 40vw;
+.divright img {
+    width: 80%;
 }
 
-@media only screen and (min-width: 769px) and (max-width: 899px) {
-    .servicos {
-        margin-top: 3rem;
-        margin-bottom: 10vh;
-        margin-left: 20vw;
-    }
 
-    .servicos h1 {
-        flex: 1;
-        color: #004884;
-        font-size: 2rem;
-        margin-bottom: 2rem;
-    }
-
-    .servicos h3 {
-        color: black;
-        font-size: 1.4rem;
-        font-weight: 400;
-        width: 30vw;
-    }
-
-    .servicos img {
-        width: 50vw;
-        margin-right: 25vw;
-    }
+.divleft span {
+    font-weight: bold;
+    color: #004884;
 }
 
-@media only screen and (min-width: 481px) and (max-width: 768px) {
-    .servicos {
-        margin-top: 0rem;
-        margin-bottom: 10vh;
-        display: flex;
-        flex-direction: column;
-    }
-
-    .servicos h1 {
-        flex: 1;
-        color: #004884;
-        font-size: 2rem;
-        margin-bottom: 2rem;
-    }
-
-    .servicos h3 {
-        color: black;
-        font-size: 1.4rem;
-        font-weight: 400;
-        width: auto;
-        margin: 0;
-    }
-
-    .servicos img {
-        width: auto;
-    }
+@media only screen and (min-width: 1221px) and (max-width: 1800px) {
+.divright {
+    display: flex;
 }
+
+.divright img {
+    margin-top: 8vh;
+    width: 90%;
+    height: 80%;
+}
+}
+
+@media only screen and (min-width: 781px) and (max-width: 1220px) {
+    .divleft {
+        flex-basis: 90%;
+        margin-bottom: 60px;
+    }
+    
+        .divright {
+        display: none;
+    }
+    }
+
+@media only screen and (min-width: 481px) and (max-width: 780px) {
+    .divleft {
+        flex-basis: 90%;
+        margin-bottom: 60px;
+    }
+    
+        .divright {
+        display: none;
+    }
+    }
 
 @media only screen and (min-width: 0px) and (max-width: 480px) {
-    .servicos {
-        margin-top: 0vh;
-        margin-bottom: 0vh;
-        margin-left: 0vw;
-    }
+.divleft {
+    flex-basis: 90%;
+    margin-bottom: 60px;
+}
 
-    .servicos h1 {
-        flex: 1;
-        color: #004884;
-        font-size: 1.5rem;
-        margin-bottom: 2rem;
-        margin-top: 0vh;
-    }
-
-    .servicos h3 {
-        color: black;
-        font-size: 1.4rem;
-        font-weight: 400;
-        width: 80vw;
-    }
-
-    .servicos img {
-       display: none;
-    }
+    .divright {
+    display: none;
+}
 }

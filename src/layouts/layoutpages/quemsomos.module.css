@@ -3,19 +3,19 @@
     font-size: 1.2rem;
     display: flex;
     justify-content: center;
+    padding-top: 3.8vh;
 }
 
 .containerquemprimeiro {
-    text-align: center;
     width: 60%;
-    padding-top: 1.2vh;
+    margin-left: 60px;
 }
 
 .containerquemprimeiro h1 {
+    text-align: center;
     color: #004884;
     margin-bottom: 0.2vh;
 }
-
 
 .containerquemprimeiro h2 {
     color: black;
@@ -31,117 +31,57 @@
     font-weight: 400;
 }
 
-
 .containerquemprimeiro span {
     color: #004884;
 }
 
-@media only screen and (min-width: 769px) and (max-width: 1279px) {
-    .containerquemprincipal {
-        padding: 0;
-        margin: 0;
+.quemsomosright {
+    margin-left: 100px;
+}
+
+.quemsomosright img {
+    width: 80%;
+}
+@media only screen and (min-width: 1320px) and (max-width: 1500px) {
+    .quemsomosright {
+        display: flex;
     }
 
-    .containerquemprimeiro h1 {
-        font-size: 1.8rem;
+    .quemsomosright img {
+        width: 100%;
     }
+}
 
+@media only screen and (min-width: 769px) and (max-width: 1319px) {
     .containerquemprimeiro {
-        text-align: center;
-        width: auto;
-        padding-left: 4vw;
-        padding-right: 4vw;
-        font-weight: 300;
+        margin-left: 20px;
+        width: 90%;
     }
-
-    .containerquemsegundo {
-        padding: 0;
-        margin: 0;
-        width: auto;
-        padding-left: 4vw;
-        padding-right: 4vw;
+    
+    .quemsomosright {
+        display: none;
     }
-
-    .containerquemsegundo h1 {
-        margin-top: 1vh;
-        font-size: 1.8rem;
-    }
-
-    .containerquemsegundo p {
-        font-weight: 300;
-    }
-
 }
 
 @media only screen and (min-width: 481px) and (max-width: 768px) {
-    .containerquemprincipal {
-        padding: 0;
-        margin: 0;
-    }
-
-    .containerquemprimeiro h1 {
-        font-size: 1.8rem;
-    }
-
     .containerquemprimeiro {
-        text-align: center;
-        width: auto;
-        padding-left: 4vw;
-        padding-right: 4vw;
-        font-weight: 300;
+        margin-left: 20px;
+        width: 90%;
     }
-
-    .containerquemsegundo {
-        padding: 0;
-        margin: 0;
-        width: auto;
-        padding-left: 4vw;
-        padding-right: 4vw;
-    }
-
-    .containerquemsegundo h1 {
-        margin-top: 1vh;
-        font-size: 1.8rem;
-    }
-
-    .containerquemsegundo p {
-        font-weight: 300;
+    
+    .quemsomosright {
+        display: none;
     }
 
 }
 
 @media only screen and (min-width: 0px) and (max-width: 480px) {
-    .containerquemprincipal {
-        padding: 0;
-        margin: 0;
-    }
-
-    .containerquemprimeiro h1 {
-        font-size: 1.8rem;
-    }
-
     .containerquemprimeiro {
-        text-align: center;
-        width: auto;
-        padding-left: 4vw;
-        padding-right: 4vw;
-        font-weight: 300;
+        margin-left: 20px;
+        width: 90%;
     }
 
-    .containerquemsegundo {
-        padding: 0;
-        margin: 0;
-        width: auto;
-        padding-left: 4vw;
-        padding-right: 4vw;
-    }
-
-    .containerquemsegundo h1 {
-        margin-top: 1vh;
-        font-size: 1.8rem;
-    }
-
-    .containerquemsegundo p {
-        font-weight: 300;
+    .quemsomosright {
+        display: none;
     }
 }
