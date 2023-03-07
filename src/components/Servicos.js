@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from '../layouts/servicos.module.css'
-import foto1 from '../../src/image/foto3.jpg'
+import foto1 from '../../src/image/foto2.jpg'
 import slogan from '../../src/image/slogan.jpeg'
 import icon1 from '../../src/image/icone1.png'
 import icon2 from '../../src/image/icone2.png'

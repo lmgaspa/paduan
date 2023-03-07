@@ -2,7 +2,7 @@ import React from 'react'
 import PreNavBar from '../components/PreNavBar'
 import Navbar from '../components/Navbar'
 import styles from '../layouts/layoutpages/servicospage.module.css'
-import foto1 from '../../src/image/foto3.jpg'
+import foto1 from '../../src/image/foto2.jpg'
 
 export default function ServicosPage() {
   return (
