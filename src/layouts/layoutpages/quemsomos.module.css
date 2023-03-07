@@ -67,7 +67,11 @@
     .containerquemprimeiro {
         margin-left: 20px;
         width: 90%;
+        margin-top: 20px;
     }
+
+    .containerquemprimeiro h1 {
+        text-align: left;}
     
     .quemsomosright {
         display: none;
@@ -79,7 +83,11 @@
     .containerquemprimeiro {
         margin-left: 20px;
         width: 90%;
+        margin-top: 20px;
     }
+
+    .containerquemprimeiro h1 {
+        text-align: left;}
 
     .quemsomosright {
         display: none;

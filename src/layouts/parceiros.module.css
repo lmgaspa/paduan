@@ -100,7 +100,7 @@
         width: 80%;
         padding-left: 5vw;
         padding-right: 5vw;
-        padding-top: 1vh;
+        padding-top: 2vh;
         padding-bottom: 4vh;
         display: flex;
         margin: auto auto;
@@ -123,8 +123,8 @@
         width: 80%;
         padding-left: 5vw;
         padding-right: 5vw;
-        padding-top: 1vh;
-        padding-bottom: 2vh;
+        padding-top: 2vh;
+        padding-bottom: 3vh;
         display: flex;
         margin: auto auto;
     }
