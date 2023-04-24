@@ -10,7 +10,7 @@ export default function NavList() {
             <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="/servicos">Serviços</Link>
+            <Link to="/servicos"> Terceirização de Serviços</Link>
           </li>
           <li>
             <Link to="/orcamento">Faça seu orçamento</Link>

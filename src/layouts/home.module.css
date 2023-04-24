@@ -2,7 +2,7 @@
     height: auto;
     color: black;
     font-weight: 600;
-    font-size: 2rem;
+    font-size: 36px;
 }
 
 .containerhome p {
@@ -13,12 +13,12 @@
 
 .containerhome span {
     color: #004884;
-    font-size: 2.4rem;
+    font-size: 46px;
 }
 
 .containerhome .span2 {
     color: #004884;
-    font-size: 2rem;
+    font-size: 32px;
 }
 
 .divleft {
@@ -78,13 +78,7 @@
 }
 
 @media only screen and (min-width: 769px) and (max-width: 1279px) {
-    .containerhome {
-        font-size: 2rem;
-    }
-
-    .containerhome span {
-        font-size: 2.2rem;
-    }
+    
     
     .containerhome p {
         max-width: 95vw;

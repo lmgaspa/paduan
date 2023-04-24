@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from '../layouts/servicos.module.css'
-import foto1 from '../../src/image/foto2.jpg'
+import foto1 from '../../src/image/foto3.jpg'
 import slogan from '../../src/image/slogan.jpeg'
 import icon1 from '../../src/image/icone1.png'
 import icon2 from '../../src/image/icone2.png'
@@ -19,22 +19,36 @@ export default function Servicos() {
       </div>
       <div className={styles.divservicospage}>
         <div className={styles.divleft}>
-          <h1>Nossos serviços</h1>
-          <h3>Nós somos uma empresa especializada em terceirização de serviços radiológicos e
-            oferecemos uma equipe altamente capacitada e atualizada com as mais recentes tecnologias do mercado.
-          </h3>
+        <h1>Terceirização de serviços</h1>
+          <h3>Você está precisando de uma solução imediata e eficaz para solucionar alguns problemas e
+            reduzir custos com mão de obra técnica em seu serviço de radiologia?</h3>
           <h3>
-            Com nossos serviços, você pode otimizar a gestão do centro de imagem e garantir que todos os laudos sejam precisos e rápidos.</h3>
-          <h1>Vantagens da terceirizacao</h1>
-          <h3>Ao escolher a nossa empresa, você pode se concentrar no seu core business, deixando a gestão dos serviços radiológicos para
-            uma equipe especializada. Além disso, nossa equipe técnica devidamente capacitada aumenta a eficiência do atendimento aos pacientes e
-            reduz os custos.</h3>
-          <h3>Outra grande vantagem é a emissão de laudos através da telerradiologia,
-            permitindo que pacientes de diversas regiões recebam diagnósticos precisos e rápidos.</h3>
-          <h3>Se você deseja terceirizar serviços em radiologia com qualidade e segurança,
-            nossa empresa é uma excelente opção.</h3>
-         
-            
+            A Digital Radiológica é uma empresa que vem atuando na prestação de serviços terceirizados
+            em radiologia no estado do Paraná desde 2015 e em processos licitatórios pelo Brasil.</h3>
+            <h3> A excelência
+            de nossos serviços pode ser comprovada por mais de 8 anos de experiência no mercado da
+            terceirização em serviços radiológicos e pelo atendimento oferecido por profissionais especializados
+            e comprometidos para atender nossos clientes, oferecendo assim segurança e qualidade para o
+            serviço.</h3>
+          <h3>
+            Dentre nossos parceiros estão a Irmandade da Santa Casa de Misericórdia Nossa Senhora Das
+            Graças - Piên, Clínica de Diagnóstico Capão Raso, Clínica Dr. Mantovani na cidade de Fazenda Rio
+            Grande, Fundação Estatal de Atenção à Saúde de Curitiba - FEAS, entre outros no interior do Estado
+            Do Paraná.</h3>
+          <h3>
+            Além de mão de obra especializada, contamos com o serviço de telerradiologia que permite o
+            diagnóstico à distância, emitindo, portanto, uma segunda opinião técnica através do envio digital das
+            imagens.</h3>
+          <h3>
+            Ao escolher a nossa empresa, você pode se concentrar no seu core business, confiando a gestão
+            do seu centro de imagem para um time especializado e uma equipe técnica experiente, devidamente
+            treinada e que preza pela a humanização ao atendimento aos seus clientes.</h3>
+          <h3>A terceirização do trabalho do profissional em radiologia, é hoje uma realidade de mercado que
+            vem se disseminando principalmente nos grandes centros.</h3>
+          <h3>Para hospitais e proprietários de clínicas,
+            é uma solução referente às questões trabalhistas que envolve a contratação de pessoal técnico, na
+            medida que desvincula o profissional do serviço radiológico de sua instituição, podendo contribuir
+            também na redução de diversos custos altos e fixos.</h3>
         </div>
         <div className={styles.divright}>
           <img src={foto1} alt="foto"></img>

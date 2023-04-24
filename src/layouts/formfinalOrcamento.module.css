@@ -38,14 +38,14 @@
 .buttonform {
     font-size: 1.5rem;
     font-weight: 600;
-    color: white;
+    color: #004884;
     border: none;
     border-radius: 2rem;
     cursor: pointer;
     margin-top: 2vh;
     margin-bottom: 2vh;
     width: 15vw;
-    background-color: #372465;
+    background-color: rgb(255, 255, 255);
     padding: 0.6vh;
     text-align: center;
     align-items: center;

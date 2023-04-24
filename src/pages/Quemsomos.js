@@ -2,7 +2,7 @@ import React from 'react'
 import PreNavBar from '../components/PreNavBar'
 import Navbar from '../components/Navbar'
 import styles from '../layouts/layoutpages/quemsomos.module.css'
-import imgservico from '../../src/image/imgservico.png'
+import imgservico from '../../src/image/foto3.jpg'
 
 export default function Quemsomos() {
   return (
